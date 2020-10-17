@@ -1,0 +1,23 @@
+.parters-block {
+  padding-top: 91px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.parters-block-list {
+  display: flex;
+}
+
+.parters-block-item {
+  padding-right: 127px;
+}
+
+.parters-block-link {
+}
+
+.parters-block-img {
+}
+
+.visibility-hidden {
+  display: none;
+}

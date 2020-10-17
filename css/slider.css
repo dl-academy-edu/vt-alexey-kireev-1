@@ -1,0 +1,147 @@
+.slider {
+  padding-left: 110px;
+  padding-right: 110px;
+  min-width: 1180px;
+  min-height: 500px;
+}
+
+.one-image-slider {
+  float: right;
+  margin-right: 99px;
+}
+
+.slider-one-number {
+  margin-top: 106px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 3100;
+  font-size: 60px;
+  line-height: 73px;
+  color: #e3d8d0;
+}
+
+.slider-block {
+}
+.slider-bottom {
+  display: none;
+  font-family: Open Sans;
+  font-style: normal;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.slider-block-nav {
+  margin-left: 28px;
+}
+
+.slider-bottom-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c29974;
+  width: 1180px;
+  height: 39px;
+}
+
+.slider-one-title-big {
+  padding-top: 178px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+  color: #1e0606;
+}
+
+.slider-one-title-small {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Crimson Text;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1e0606;
+}
+
+.slider-button {
+  width: 161px;
+  height: 49px;
+  background: #000000;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.slider-button:hover {
+  background: #c29974;
+}
+
+.slider-button:active {
+  background: #cfaf91;
+}
+
+.slider-button:disabled {
+  background: #c1c1c1;
+  color: #e1e1e1;
+}
+
+.text-block-slider {
+  margin-left: 44px;
+}
+
+.slider-button-page:hover {
+  background: #715f5c;
+}
+
+.slider-button-page:active {
+  background: #715f5c;
+}
+
+.slider-background {
+  display: flex;
+}
+
+.slider-background::before {
+  content: "";
+  z-index: -1;
+  margin-top: 89px;
+  position: absolute;
+  width: 1180px;
+  height: 411px;
+  background-color: #eee4db;
+}
+
+.slider-block-item input {
+  display: none;
+}
+
+.slider-block-item label {
+  display: inline-block;
+  cursor: pointer;
+  width: 31px;
+  height: 3px;
+  background-color: #d6cac2;
+}
+
+.slider-block-item input[type="radio"]:checked + label {
+  width: 31px;
+  height: 3px;
+  background-color: #715f5c;
+}
+
+.slider-block-item label:hover {
+  width: 31px;
+  height: 3px;
+  background-color: #715f5c;
+}

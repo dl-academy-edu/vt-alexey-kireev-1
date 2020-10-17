@@ -1,0 +1,7 @@
+.visibility-hidden {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    left: -9999px;
+}

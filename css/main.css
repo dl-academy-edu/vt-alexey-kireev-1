@@ -1,0 +1,50 @@
+@import "header.css";
+@import "slider.css";
+@import "category-products.css";
+@import "information-container.css";
+@import "partners.css";
+@import "guarantee.css";
+@import "footer.css";
+@import "social-networks.css";
+@import "common.css";
+
+* {
+  font-family: "Open Sans", "Montserrat", "Crimson Text", "Arial", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+  color: !important;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button {
+  border: none;
+  border-color: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+hr {
+  opacity: 0.15;
+}

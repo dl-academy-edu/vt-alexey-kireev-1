@@ -1,0 +1,109 @@
+.category-products {
+  padding-top: 90px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.category-products-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+
+.product-title {
+  display: table-caption;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.product-title:hover {
+  text-decoration-line: underline;
+}
+
+.product-title:active {
+  text-decoration-line: underline;
+}
+
+.category-products-block-list {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.category-products-block-item-1,
+.category-products-block-item-2,
+.category-products-block-item-3,
+.category-products-block-item-4 {
+  margin-right: 9px;
+}
+.category-products-navigation {
+  background-color: #e2f1f8;
+  display: flex;
+  width: 37px;
+  height: 37px;
+  margin-right: 6px;
+  margin-top: 33px;
+}
+
+.products-bottom-text {
+  width: 580px;
+  height: 44px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.category-products-navigation-block {
+  display: flex;
+}
+
+.category-products-block-item-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 280px;
+  height: 270px;
+  background-image: url(../Images/image-1.jpg);
+}
+
+.category-products-block-item-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 280px;
+  height: 270px;
+  background-image: url(../Images/image-2.jpg);
+}
+
+.category-products-block-item-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 270px;
+  height: 270px;
+  background-image: url(../Images/image-3.jpg);
+}
+
+.category-products-block-item-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 280px;
+  height: 270px;
+  background-image: url(../Images/image-4.jpg);
+}
