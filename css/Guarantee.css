@@ -9,11 +9,8 @@
   padding-left: 120px;
 }
 
-.guarantee-img {
-}
-
 .guarantee-title {
-  padding-top: 10px;
+  padding-top: 33px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -30,7 +27,6 @@
   height: 40px;
   margin-top: 26px;
   background: #000000;
-  font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -51,8 +47,7 @@
 }
 
 .guarantee-description {
-  padding-top: 15px;
-  font-family: Open Sans;
+  padding-top: 12px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -60,10 +55,12 @@
   color: #1e0606;
 }
 
-.guarantee-block-input {
+.guarantee-list {
+  bottom: 21px;
+  position: relative;
+  margin-bottom: 97px;
   width: 326px;
   height: 55px;
-  margin-bottom: 130px;
   font-family: Crimson Text;
   font-style: italic;
   font-weight: normal;
@@ -72,22 +69,27 @@
   color: #1e0606;
 }
 
-.guarantee-block-input input {
+.guarantee-list input {
   display: none;
+  position: relative;
 }
 
-.guarantee-block-input label {
+.guarantee-list label {
+  margin-bottom: 7px;
+  font-family: Crimson Text;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
   display: inline-block;
   cursor: pointer;
-  padding: 0px 15px;
-  line-height: 34px;
-  border-radius: 6px;
   user-select: none;
 }
 
-.guarantee-block-input input[type="radio"]:checked + label {
+.guarantee-list input[type="radio"]:checked + label {
   position: relative;
   right: 60px;
+  bottom: 14x;
   width: 326px;
   height: 55px;
   background-color: #e2f1f8;
@@ -103,7 +105,7 @@
   align-items: center;
 }
 
-.guarantee-block-input label:hover {
+.guarantee-list label:hover {
   font-family: Crimson Text;
   font-style: italic;
   font-weight: bold;
@@ -111,6 +113,8 @@
   line-height: 32px;
   color: #1e0606;
 }
-.guarantee-list {
-  padding-bottom: 22px;
+
+.guarantee-block-input {
+  margin-bottom: 10px;
+  outline: none;
 }

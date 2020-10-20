@@ -10,6 +10,39 @@
 </head>
 
 <body>
+    <section class="popup" id="popup js-popup">
+        <h2 class="visibility-hidden">Popup contacy us</h2>
+        <form class="popup-form">
+            <button type="button" class="button popup-form-button-close" id="popup-close-button"><img
+                    src="/Images/close.png" width="15" height="15"></button>
+            <div class="input">
+                <label class="input-label" for="name">Name</label>
+                <input class="input-item" type="text" id="name">
+            </div>
+            <div class="inputs-row-two">
+                <div class="input">
+                    <label class="input-label" for="phone">Phone</label>
+                    <input class="input-item" type="text" id="phone">
+                </div>
+                <div class="input">
+                    <label class="input-label" for="email">Email</label>
+                    <input class="input-item" type="text" id="email">
+                </div>
+            </div>
+            <div class="input">
+                <label class="input-label" for="message">Message</label>
+                <textarea class="input-item textarea" id="message"></textarea>
+            </div>
+            <div class="checkbox-block">
+                <input class="checkbox-input visibility-hidden" type="checkbox" id='approval' checked>
+                <label class="input-label-checkbox" for="approval"></label>
+                <p class="checkbox-text">By clicking on the button, you consent to the processing of your personal data
+                </p>
+            </div>
+            <button class="button popup-form-button-submit">SUBMIT</button>
+        </form>
+    </section>
+
     <header class="header container">
         <div class="header-logo"><a href="#"><img src="images/logo.png" alt="Site logo" class="header-logo"></a></div>
         <nav aria-label="Навигация по сайту" class="header-nav">
@@ -25,26 +58,26 @@
                 </li>
             </ul>
         </nav>
-        <img src="images/search.png" alt="search" class="search">
-        <a href="#" class="contact-us-header-link">Contact Us</a>
+        <img src="images/search.png" alt="search" class="search" tabindex="0" width="17" height="17">
+        <a href="#" class="contact-us-header-link" id="popup-open-button">Contact Us</a>
     </header>
     <section class="slider container">
         <div class="slider-background">
             <ul class="slider-block-nav">
                 <div class="slider-one-number">01</div>
-                <li class="slider-block-item">
+                <li class="slider-block-item" tabindex="0">
                     <input type="radio" name="page" id="slide1" checked>
                     <label for="slide1"></label>
                 </li>
-                <li class="slider-block-item">
+                <li class="slider-block-item" tabindex="0">
                     <input type="radio" name="page" id="slide2">
                     <label for="slide2"> </label>
                 </li>
-                <li class="slider-block-item">
+                <li class="slider-block-item" tabindex="0">
                     <input type="radio" name="page" id="slide3">
                     <label for="slide3"></label>
                 </li>
-                <li class="slider-block-item">
+                <li class="slider-block-item" tabindex="0">
                     <input type="radio" name="page" id="slide4">
                     <label for="slide4"></label>
                 </li>
@@ -64,7 +97,6 @@
         <section class="category-products container">
             <h2 class="category-products-title">Category Products</h2>
             <ul class="category-products-block-list">
-                <li class="category-products-block-items">
                 <li class="category-products-block-item-1">
                     <a href="#">
                         <h3 class="product-title">APPAREL KIDS</h3>
@@ -103,16 +135,16 @@
         <img class="guarantee-img" src="images/Divelery.jpg" alt="divelery" width="480" height="559">
         <div class="guarantee-block">
             <h2 class="guarantee-title">DELIVERY</h2>
-            <ul class="guarantee-block-input">
-                <li class="guarantee-list">
+            <ul class="guarantee-list">
+                <li class="guarantee-block-input" tabindex="0">
                     <input type="radio" name="page-guarantee" id="delivery" value="1" checked>
                     <label for="delivery">Delivery</label>
                 </li>
-                <li class="guarantee-list">
+                <li class="guarantee-block-input" tabindex="0">
                     <input type="radio" name="page-guarantee" id="guarantee" value="2">
                     <label for="guarantee">Guarantee</label>
                 </li>
-                <li class="guarantee-list">
+                <li class="guarantee-block-input" tabindex="0">
                     <input type="radio" name="page-guarantee" id="credit" value="3">
                     <label for="credit">Credit</label>
                 </li>
@@ -176,10 +208,12 @@
         </div>
     </section>
     <footer class="footer">
-        <div class="footer-block container">
+        <div class="footer-block ">
             <section class="footer-navigation">
                 <h2 class="footer-title">Navigation</h2>
-                <hr>
+                <div class="footer-hr">
+                    <hr>
+                </div>
                 <ul class="footer-navigation-list">
                     <li class="footer-navigation-items">
                         <a class="footer-navigation-link" href="#">About Us</a>
@@ -203,7 +237,9 @@
             </section>
             <section class="footer-navigation">
                 <h2 class="footer-title">Customer Information</h2>
-                <hr>
+                <div class="footer-hr">
+                    <hr>
+                </div>
                 <ul class="footer-navigation-list">
                     <li class="footer-navigation-items">
                         <a class="footer-navigation-link" href="#">Contact Us</a>
@@ -227,7 +263,9 @@
             </section>
             <section class="footer-navigation">
                 <h2 class="footer-title">Connect</h2>
-                <hr>
+                <div class="footer-hr">
+                    <hr>
+                </div>
                 <form class="form-block">
                     <input class="footer-email" type="text" placeholder="Email">
                     <button class="footer-button button">JOIN</button>
@@ -258,7 +296,7 @@
                 </div>
             </section>
         </div>
-        <div class="footer-block-bottom container">
+        <div class="footer-block-bottom">
             <div class="footer-hr-bottom">
                 <hr>
             </div>
@@ -282,5 +320,6 @@
         </div>
     </footer>
 </body>
+<script src="/js/index.js"></script>
 
 </html>

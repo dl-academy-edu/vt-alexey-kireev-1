@@ -7,9 +7,10 @@
 @import "footer.css";
 @import "social-networks.css";
 @import "common.css";
+@import "popup.css";
 
 * {
-  font-family: "Open Sans", "Montserrat", "Crimson Text", "Arial", sans-serif;
+  font-family: "Open Sans", "Montserrat", "Roboto", "Crimson Text", "Arial", sans-serif;
   box-sizing: border-box;
 }
 
@@ -23,10 +24,15 @@ ul {
 }
 a {
   text-decoration: none;
-  color: !important;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }

@@ -11,21 +11,17 @@
 }
 
 .slider-one-number {
-  margin-top: 106px;
-
+  margin-top: 88px;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 3100;
+  font-weight: 300;
   font-size: 60px;
   line-height: 73px;
   color: #e3d8d0;
 }
 
-.slider-block {
-}
 .slider-bottom {
   display: none;
-  font-family: Open Sans;
   font-style: normal;
   text-align: center;
   display: flex;
@@ -35,14 +31,18 @@
   font-size: 12px;
   line-height: 16px;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .slider-block-nav {
-  margin-left: 28px;
+  margin-top: 14px;
+  margin-left: 32px;
 }
 
 .slider-bottom-block {
   display: flex;
+  position: relative;
+  bottom: 3px;
   align-items: center;
   justify-content: center;
   background: #c29974;
@@ -51,7 +51,7 @@
 }
 
 .slider-one-title-big {
-  padding-top: 178px;
+  padding-top: 181px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -72,15 +72,19 @@
 }
 
 .slider-button {
-  width: 161px;
-  height: 49px;
+  cursor: pointer;
+  margin-left: -2px;
+  width: 163px;
+  height: 42px;
+  margin-top: -2px;
   background: #000000;
-  font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .slider-button:hover {
@@ -97,7 +101,8 @@
 }
 
 .text-block-slider {
-  margin-left: 44px;
+  margin-left: 42px;
+  margin-top: -3px;
 }
 
 .slider-button-page:hover {
@@ -115,11 +120,17 @@
 .slider-background::before {
   content: "";
   z-index: -1;
-  margin-top: 89px;
+  margin-top: 86px;
   position: absolute;
   width: 1180px;
   height: 411px;
   background-color: #eee4db;
+}
+
+.slider-block-item {
+  outline: none;
+  width: 1px;
+  margin-bottom: -4px;
 }
 
 .slider-block-item input {
@@ -134,12 +145,7 @@
   background-color: #d6cac2;
 }
 
-.slider-block-item input[type="radio"]:checked + label {
-  width: 31px;
-  height: 3px;
-  background-color: #715f5c;
-}
-
+.slider-block-item input[type="radio"]:checked + label,
 .slider-block-item label:hover {
   width: 31px;
   height: 3px;

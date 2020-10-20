@@ -1,7 +1,3 @@
-.social-network-block {
-  padding-top: px;
-}
-
 .social-network-block-list {
   display: flex;
 }
@@ -19,9 +15,11 @@
 }
 
 .social-network-block-link:hover {
+  opacity: 0.4;
 }
 
 .social-network-block-link:active {
+  opacity: 0.2;
 }
 
 .social-network-block-link.facebook {

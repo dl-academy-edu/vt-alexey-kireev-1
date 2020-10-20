@@ -1,7 +1,7 @@
 .information {
   padding-left: 110px;
   padding-right: 147px;
-  padding-top: 90px;
+  padding-top: 64px;
   padding-bottom: 60px;
   display: flex;
 }
@@ -10,8 +10,8 @@
   margin-right: 57px;
 }
 
-.information-title-contacts {
-  padding-left: 30px;
+.information-title-contacts,
+.information-title-design {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -19,21 +19,19 @@
   line-height: 46px;
   text-transform: uppercase;
   color: #1e0606;
+}
+
+.information-title-contacts {
+  padding-left: 30px;
 }
 
 .information-title-design {
   margin-top: 0px;
   padding-left: 30px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 46px;
-  text-transform: uppercase;
-  color: #1e0606;
 }
 
 .information-title-small {
+  margin-top: -10px;
   padding-left: 30px;
   font-family: Crimson Text;
   font-style: italic;
@@ -49,7 +47,6 @@
   margin-top: 20px;
   margin-left: 30px;
   background: #000000;
-  font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   align-items: center;
@@ -70,9 +67,6 @@
   background: #cfaf91;
 }
 
-.contacts {
-}
-
 .maps {
   padding-left: 30px;
   padding-right: 30px;
@@ -83,7 +77,6 @@
   padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
-  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -95,7 +88,6 @@
   padding-top: 10px;
   padding-right: 30px;
   padding-left: 30px;
-  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -103,28 +95,21 @@
   color: #1e0606;
 }
 
-.information-background-about-us {
-}
-
-.information-background-about-us::before {
-  content: "";
-  z-index: -1;
-  margin-top: 26px;
-  position: absolute;
-  width: 543px;
-  height: 236px;
-  background-color: #e1f0f7;
-}
-
-.information-background-contacts {
-}
-
+.information-background-about-us::before,
 .information-background-contacts::before {
   content: "";
   z-index: -1;
   margin-top: 26px;
   position: absolute;
+  background-color: #e1f0f7;
+}
+
+.information-background-about-us::before {
+  width: 543px;
+  height: 236px;
+}
+
+.information-background-contacts::before {
   width: 543px;
   height: 209px;
-  background-color: #e1f0f7;
 }
