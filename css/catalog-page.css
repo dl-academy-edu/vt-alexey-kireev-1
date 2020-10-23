@@ -1,0 +1,161 @@
+.catalog-block-title {
+  padding-left: 110px;
+}
+
+.catalog-block-navigation {
+  display: flex;
+}
+
+.catalog-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+.catalog-block {
+}
+
+.catalog-block-list {
+}
+
+.catalog-item-title {
+  display: table-caption;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.catalog-navigation,
+.catalog-navigation-disabled {
+  font-family: Crimson Text;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1e0606;
+}
+
+.Catalog-vector {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.catalog-navigation-disabled {
+  opacity: 0.5;
+}
+
+.catalog {
+  padding-right: 210px;
+  padding-left: 110px;
+}
+
+.category-products {
+}
+
+.catalog-block-list {
+  justify-content: right;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1px;
+}
+
+.catalog-block-list-2 {
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1px;
+}
+
+.catalog-block-item-1:first-of-type {
+  margin-left: 0px;
+}
+
+.catalog-item-title:hover,
+.catalog-item-title:active {
+  text-decoration-line: underline;
+}
+
+.catalog-block-item-1,
+.catalog-block-item-2,
+.catalog-block-item-3,
+.catalog-block-item-4,
+.catalog-block-item-5,
+.catalog-block-item-6 {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  min-width: 280px;
+  min-height: 270px;
+}
+
+.catalog-block-item-1 {
+  background-image: url(../Images/image-1.jpg);
+}
+
+.catalog-block-item-2 {
+  background-image: url(../Images/image-2.jpg);
+}
+
+.catalog-block-item-3 {
+  background-image: url(../Images/image-3.jpg);
+}
+
+.catalog-block-item-4 {
+  background-image: url(../Images/image-4.jpg);
+}
+
+.catalog-block-item-5 {
+  background-image: url(../Images/image-5.jpg);
+}
+
+.catalog-block-item-6 {
+  background-image: url(../Images/image-6.jpg);
+}
+
+.catalog-item-link {
+}
+
+.product-title {
+}
+
+.Product-Description-block {
+  padding-top: 55px;
+  padding-left: 310px;
+  padding-right: 410px;
+  padding-bottom: 55px;
+}
+
+.Product-Description-title {
+  padding-bottom: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+
+.Product-Description {
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1e0606;
+  width: 680px;
+}

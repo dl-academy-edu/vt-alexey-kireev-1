@@ -1,0 +1,185 @@
+.contact-us-block {
+  display: flex;
+  padding-left: 107px;
+  padding-right: 64px;
+  margin-top: 40px;
+  margin-bottom: 57px;
+  height: 544px;
+}
+
+.contact-us-block-title {
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.contact-us-title {
+  word-spacing: 13px;
+  margin-top: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+
+.contact-us-navigation,
+.contact-us-navigation-disabled,
+.contact-us-vector {
+  position: relative;
+  bottom: 9px;
+}
+
+.contact-us-navigation,
+.contact-us-navigation-disabled {
+  font-family: Crimson Text;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1e0606;
+}
+
+.contact-us-navigation-disabled {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.contact-us-vector {
+  margin-left: 17px;
+  margin-right: 16px;
+}
+
+.contact-us-text-block {
+  padding-left: 120px;
+}
+
+.contact-us-text-1,
+.contact-us-text-2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1e0606;
+  margin-bottom: 20px;
+}
+
+.contact-us-text-1 {
+  width: 384px;
+  height: 44px;
+}
+
+.contact-us-text-2 {
+  width: 384px;
+  height: 66px;
+}
+
+.contact-us-text-bottom {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #c29974;
+}
+
+.contact-us-form {
+  position: relative;
+  padding: 18px 41px 29px;
+  background: #e5eaf8;
+  max-width: 680px;
+  width: 100%;
+}
+
+.form-button-submit {
+  margin-top: -3px;
+
+  width: 106px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #000000;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.form-button-submit:hover {
+  background: #c29974;
+}
+
+.form-button-submit:active {
+  background: #cfaf91;
+}
+
+.contact-us-label-checkbox {
+  cursor: pointer;
+  position: absolute;
+}
+
+.contact-us-label-checkbox::before {
+  display: inline-block;
+  content: "";
+  width: 19px;
+  height: 19px;
+  border: 2px solid #c29974;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.contact-us-label-checkbox::after {
+  width: 15px;
+  height: 15px;
+  color: #c29974;
+  position: relative;
+  bottom: 5px;
+  right: 14px;
+  content: "✓";
+}
+
+.contact-us-checkbox-input:checked + .contact-us-label-checkbox::after {
+  content: "";
+}
+
+.textarea {
+  width: 600px;
+  height: 150px;
+}
+
+.contact-us-input-item {
+  outline: none;
+  padding: 11px 20px 11px;
+  display: block;
+  width: 100%;
+  border-radius: none;
+  background: #ffffff;
+  border-radius: 0;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1e0606;
+}
+
+.contact-us-input-email {
+  margin-left: 18px;
+}
+
+.contact-us-input-email-input,
+.contact-us-input-phone {
+  width: 290px;
+  height: 50px;
+}

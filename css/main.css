@@ -8,6 +8,9 @@
 @import "social-networks.css";
 @import "common.css";
 @import "popup.css";
+@import "page-contact-us.css";
+@import "catalog-page.css";
+@import "blog.css";
 
 * {
   font-family: "Open Sans", "Montserrat", "Roboto", "Crimson Text", "Arial", sans-serif;

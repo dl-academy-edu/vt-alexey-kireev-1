@@ -3,147 +3,238 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Catalog</title>
+    <title>DLK</title>
+    <link href="css/fonts/stylesheet.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <a href="#"><img src="images/logo.png" alt="Site logo"></a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Blog</a>
+    <section class="popup" id="popup js-popup">
+        <h2 class="visibility-hidden">Popup contacy us</h2>
+        <form class="popup-form">
+            <button type="button" class="button popup-form-button-close" id="popup-close-button"><img
+                    src="/Images/close.png" width="15" height="15"></button>
+            <div class="input">
+                <label class="input-label" for="name">Name</label>
+                <input class="input-item" type="text" id="name">
+            </div>
+            <div class="inputs-row-two">
+                <div class="input">
+                    <label class="input-label" for="phone">Phone</label>
+                    <input class="input-item" type="text" id="phone">
+                </div>
+                <div class="input">
+                    <label class="input-label" for="email">Email</label>
+                    <input class="input-item" type="text" id="email">
+                </div>
+            </div>
+            <div class="input">
+                <label class="input-label" for="message">Message</label>
+                <textarea class="input-item textarea" id="message"></textarea>
+            </div>
+            <div class="checkbox-block">
+                <input class="checkbox-input visibility-hidden" type="checkbox" id='approval' checked>
+                <label class="input-label-checkbox" for="approval"></label>
+                <p class="checkbox-text">By clicking on the button, you consent to the processing of your personal data
+                </p>
+            </div>
+            <button class="button popup-form-button-submit">SUBMIT</button>
+        </form>
+    </section>
+
+    <header class="header container">
+        <div class="header-logo"><a href="#"><img src="images/logo.png" alt="Site logo" class="header-logo"></a></div>
+        <nav aria-label="Навигация по сайту" class="header-nav">
+            <ul class="header-menu-list">
+                <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">Blog</a>
                 </li>
-                <li>
-                    Catalog
+                <li class="header-menu-item">
+                    <a href="#" class="header-menu-link" style="pointer-events:none">Catalog</a>
                 </li>
-                <li>
-                    <a href="#">About Us</a>
+                <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">About Us</a>
                 </li>
             </ul>
-            <button>
-                <img src="images/search.png" alt="search">
-            </button>
-            <a href="#">Contact Us</a>
         </nav>
+        <img src="images/search.png" alt="search" class="search" tabindex="0" width="17" height="17">
+        <a href="#" class="contact-us-header-link" id="popup-open-button">Contact Us</a>
     </header>
-    <h1>CATEGORY PRODUCTS</h1>
-    <div><a href="#">Home</a></div>
-    <img src="images/vector-Stroke.png" alt="vector-Stroke">
-    <div>Catalog</div>
-    <maim>
-    <article>
-        <a href="#">
-            <h2>APPAREL KIDS</h2>
-            <img src="Images/image-1.png" alt="image 1">
-        </a>
-        <a href="#">
-            <h2>HOLIDAY SHOP</h2>
-            <img src="Images/image-2.png" alt="image 2">
-        </a>
-        <a href="#">
-            <h2>TOYS</h2>
-            <img src="Images/image-3.png" alt="image 3">
-        </a>
-        <a href="#">
-            <h2>ACCESSORIES</h2>
-            <img src="Images/image-4.png" alt="image 4">
-        </a>
-        <a href="#">
-            <h2>SALE</h2>
-            <img src="Images/image-5.png" alt="image 5">
-        </a>
-        <a href="#">
-            <h2>APPAREL ADULTS</h2>
-            <img src="Images/image-6.png" alt="image 6">
-        </a>
-    </article>
-</maim>
-    <section>
-        <h2>Product Description</h2>
-        <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even
+    <div class="catalog-block-title container">
+        <h1 class="catalog-title">CATEGORY PRODUCTS</h1>
+        <div class="catalog-block-navigation">
+            <a class="catalog-navigation" href="#">Home</a>
+            <img class="Catalog-vector" src="images/vector-Stroke.png" alt="vector-Stroke" width="8" height="12">
+            <div class="catalog-navigation-disabled">Catalog</div>
+        </div>
+    </div>
+    <main class="catalog container">
+        <article class="catalog-block ">
+            <ul class="catalog-block-list">
+                <li class="catalog-block-item-1">
+                    <a class="catalog-item-link" href="#">
+                        <h3 class="catalog-item-title">APPAREL KIDS</h3>
+                    </a>
+                </li>
+                <li class="catalog-block-item-2">
+                    <a class="catalog-item-link" href="#">
+                        <h3 class="catalog-item-title">HOLIDAY SHOP</h3>
+                    </a>
+                </li>
+                <li class="catalog-block-item-3">
+                    <a class="catalog-item-link" href="#">
+                        <h3 class="catalog-item-title">TOYS</h3>
+                    </a>
+                </li>
+            </ul>
+            <ul class="catalog-block-list-2">
+                <li class="catalog-block-item-4">
+                    <a class="catalog-item-link" href="#">
+                        <h3 class="catalog-item-title">ACCESSORIES</h3>
+                    </a>
+                </li>
+                <li class="catalog-block-item-5">
+                    <a class="catalog-item-link" href="#">
+                        <h3 class="catalog-item-title">SALE</h3>
+                    </a>
+                </li>
+                <li class="catalog-block-item-6">
+                    <a class="catalog-item-link" href="#">
+                        <h3 class="catalog-item-title">APPAREL ADULTS</h3>
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </main>
+    <section class="Product-Description-block container">
+        <h2 class="Product-Description-title">Product Description</h2>
+        <p class="Product-Description">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and
+            almost really cry. You can even
             bathe her, just like a little sister.</p>
-        <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an
+        <p class="Product-Description">A toy with a height of 43 cm bends its knees, the head rotates, it can stand
+            upright. Such a doll will be an
             excellent choice for a gift for a girl from 4 years old.</p>
-        <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins
+        <p class="Product-Description">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle
+            for water, a pair of hairpins
             and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.
         </p>
     </section>
-    <footer>
-        <section>
-            <h2>Navigation</h2>
-            <hr>
-            <ul>
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Design Services</a>
-                </li>
-                <li>
-                    <a href="#">Featured On</a>
-                </li>
-                <li>
-                    <a href="#">Featured On</a>
-                </li>
-                <li>
-                    <a href="#">Shop By Designer</a>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Customer Information</h2>
-            <hr>
-            <ul>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-                <li>
-                    <a href="#">Sale Exclusions</a>
-                </li>
-                <li>
-                    <a href="#">Shipping & Returns</a>
-                </li>
-                <li>
-                    <a href="#">Terms & Conditions</a>
-                </li>
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#">Search</a>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Connect</h2>
-            <hr>
-            <input type="text" placeholder="Email">
-            <button>JOIN</button>
-            <ul>
-                <li>
-                    <a href="#" class="facebook"></a>
-                </li>
-                <li>
-                    <a href="#" class="twitter"></a>
-                </li>
-                <li>
-                    <a href="#" class="pinterest"></a>
-                </li>
-                <li>
-                    <a href="#" class="instagram"></a>
-                </li>
-            </ul>
-        </section>
-        <hr>
-        <h3>Company Rating</h3>
-        <img src="Images/rating.png" alt="rating">
-        <h3>Copyright © 2018 Dlk • Design Life Kids</h3>
-        <h3>Web Design — Direct Line Development</h3>
+    <footer class="footer">
+        <div class="footer-block ">
+            <section class="footer-navigation">
+                <h2 class="footer-title">Navigation</h2>
+                <div class="footer-hr">
+                    <hr>
+                </div>
+                <ul class="footer-navigation-list">
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">About Us</a>
+                    </li>
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">Blog</a>
+                    </li>
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">Design Services</a>
+                    </li>
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">Featured On</a>
+                    </li>
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">2018 Holiday Catalog</a>
+                    </li>
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">Shop By Designer</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer-navigation">
+                <h2 class="footer-title">Customer Information</h2>
+                <div class="footer-hr">
+                    <hr>
+                </div>
+                <ul class="footer-navigation-list">
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">Sale Exclusions</a>
+                    </li>
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">Shipping & Returns</a>
+                    </li>
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">Terms & Conditions</a>
+                    </li>
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="footer-navigation-items">
+                        <a class="footer-navigation-link" href="#">Search</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer-navigation">
+                <h2 class="footer-title">Connect</h2>
+                <div class="footer-hr">
+                    <hr>
+                </div>
+                <form class="form-block">
+                    <input class="footer-email" type="text" placeholder="Email">
+                    <button class="footer-button button">JOIN</button>
+                </form>
+                <div class="social-network-block">
+                    <ul class="social-network-block-list">
+                        <li class="social-network-block-item">
+                            <a href="#" class="social-network-block-link Facebook">
+                                <span class="visibility-hidden">Follow to Facebook</span>
+                            </a>
+                        </li>
+                        <li class="social-network-block-item">
+                            <a href="#" class="social-network-block-link twitter">
+                                <span class="visibility-hidden">Follow to Twitter</span>
+                            </a>
+                        </li>
+                        <li class="social-network-block-item">
+                            <a href="#" class="social-network-block-link pinterest">
+                                <span class="visibility-hidden">Follow to Painerest</span>
+                            </a>
+                        </li>
+                        <li class="social-network-block-item">
+                            <a href="#" class="social-network-block-link instagram">
+                                <span class="visibility-hidden">Follow to Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="footer-block-bottom">
+            <div class="footer-hr-bottom">
+                <hr>
+            </div>
+            <div class="rating">
+                <h3 class="rating-title">Company Rating</h3>
+                <div class="rating-stars-input">
+                    <input type="radio" name="rating" id="stars-5" value="5">
+                    <label for="stars-5" title="Оценка «5»"></label>
+                    <input type="radio" name="rating" id="stars-4" value="4">
+                    <label for="stars-4" title="Оценка «4»"></label>
+                    <input type="radio" name="rating" id="stars-3" value="3">
+                    <label for="stars-3" title="Оценка «3»"></label>
+                    <input type="radio" name="rating" id="stars-2" value="2">
+                    <label for="stars-2" title="Оценка «2»"></label>
+                    <input type="radio" name="rating" id="stars-1" value="1">
+                    <label for="stars-1" title="Оценка «1»"></label>
+                </div>
+                <h3 class="copyright">Copyright © 2018 Dlk • Design Life Kids</h3>
+                <a href="#">
+                    <h3 class="web-desing">Web Design — Direct Line Development</h3>
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
+<script src="/js/index.js"></script>
 
 </html>

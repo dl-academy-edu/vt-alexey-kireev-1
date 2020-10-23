@@ -27,17 +27,25 @@
   margin-bottom: 6px;
   display: block;
   margin-top: 20px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 19px;
   color: #1e0606;
 }
 
 .inputs-row-two {
   display: flex;
   flex-wrap: wrap;
+}
+
+.input-item::placeholder {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #1E0606;
 }
 
 .input-item {
@@ -78,7 +86,6 @@
 
 .checkbox-text {
   padding-left: 30px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

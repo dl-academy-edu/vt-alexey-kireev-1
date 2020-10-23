@@ -43,6 +43,7 @@
   opacity: 0.4;
 }
 .search {
+  cursor: pointer;
   margin-left: auto;
 }
 
