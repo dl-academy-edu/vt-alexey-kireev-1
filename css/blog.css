@@ -150,13 +150,13 @@
   color: #c29974;
 }
 
-#vector-page {
+.vector-page {
   cursor: pointer;
 }
-#vector-page path:hover {
+.vector-page path:hover {
   stroke: #c29974;
 }
 
-#vector-page path:active {
+.vector-page path:active {
   opacity: 0.5;
 }
