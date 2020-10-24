@@ -11,6 +11,7 @@
 @import "page-contact-us.css";
 @import "catalog-page.css";
 @import "blog.css";
+@import "toys.css";
 
 * {
   font-family: "Open Sans", "Montserrat", "Roboto", "Crimson Text", "Arial", sans-serif;

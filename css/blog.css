@@ -32,6 +32,7 @@
 }
 
 .blog-navigation-disabled {
+  pointer-events: none;
   opacity: 0.5;
 }
 
@@ -151,14 +152,17 @@
 
 .blog-navigation-page-vector {
   cursor: pointer;
-  filter: hue-rotate(18deg);
 }
+
 
 .blog-navigation-page-vector:hover,
 .blog-navigation-page-vector:active {
-  background-color: #c29974;
+  opacity: 0.5;
 }
 
 .blog-navigation-page-vector:active {
   opacity: 0.5;
 }
+
+
+ 
