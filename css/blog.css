@@ -150,19 +150,13 @@
   color: #c29974;
 }
 
-.blog-navigation-page-vector {
+#vector-page {
   cursor: pointer;
 }
-
-
-.blog-navigation-page-vector:hover,
-.blog-navigation-page-vector:active {
-  opacity: 0.5;
+#vector-page path:hover {
+  stroke: #c29974;
 }
 
-.blog-navigation-page-vector:active {
+#vector-page path:active {
   opacity: 0.5;
 }
-
-
- 
