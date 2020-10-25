@@ -4,11 +4,12 @@
 }
 
 .blog-title {
+  margin-top: 18px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
-  line-height: 49px;
+  line-height: 42px;
   text-transform: uppercase;
   color: #1e0606;
 }
@@ -18,7 +19,8 @@
 }
 
 .blog-block {
-  padding-top: 50px;
+  width: 1200px;
+  padding-top: 30px;
 }
 
 .blog-navigation,
@@ -48,8 +50,8 @@
 }
 
 .blog-item {
-  margin-right: 13px;
-  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
   display: block;
   max-width: 380px;
 }
@@ -93,7 +95,7 @@
 }
 
 .blog-navigation-page {
-  padding-bottom: 60px;
+  padding-bottom: 47px;
   padding-left: 110px;
   padding-right: 110px;
   justify-content: space-between;
@@ -103,6 +105,7 @@
 
 .blog-navigation-list {
   display: flex;
+  margin-left: 65px;
 }
 
 .blog-navigation-link,
@@ -121,6 +124,8 @@
 }
 
 .blog-navigation-item {
+  margin-top: -15px;
+  padding-top: 2px;
   padding-right: 65px;
 }
 
@@ -150,6 +155,7 @@
 }
 
 .vector-page {
+  margin-top: -10px;
   cursor: pointer;
 }
 .vector-page path:hover {
@@ -158,4 +164,13 @@
 
 .vector-page path:active {
   opacity: 0.5;
+}
+
+.toys-navigation-page {
+
+  padding-left: 110px;
+  padding-right: 110px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }

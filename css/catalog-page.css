@@ -1,8 +1,10 @@
 .catalog-block-title {
+  margin-top: -9px;
   padding-left: 110px;
 }
 
 .catalog-block-navigation {
+  margin-top: -9px;
   display: flex;
 }
 
@@ -16,6 +18,7 @@
   color: #1e0606;
 }
 .catalog-block {
+  margin-top: 17px;
 }
 
 .catalog-block-list {
@@ -134,10 +137,10 @@
 }
 
 .Product-Description-block {
-  padding-top: 55px;
+  padding-top: 51px;
   padding-left: 310px;
   padding-right: 410px;
-  padding-bottom: 55px;
+  padding-bottom: 41px;
 }
 
 .Product-Description-title {

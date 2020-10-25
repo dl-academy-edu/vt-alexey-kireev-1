@@ -17,12 +17,12 @@
 
 .popup-form {
   position: relative;
-  padding: 30px 50px 50px;
+  padding: 15px 41px 50px;
   background: #e5eaf8;
   max-width: 680px;
   height: 542px;
   width: 100%;
-  margin-bottom: 197px;
+  margin-bottom: 139px;
 }
 .input-label {
   user-select: none;
@@ -38,7 +38,7 @@
 
 .inputs-row-two {
   display: flex;
-  flex-wrap: wrap;
+ 
 }
 
 .input-item::placeholder {
@@ -82,7 +82,7 @@ color: #1E0606;
 .checkbox-block {
   padding-right: 15px;
   display: flex;
-  margin-top: 22px;
+  margin-top: 18px;
   padding-bottom: 20px;
 }
 
@@ -163,5 +163,9 @@ color: #1E0606;
 }
 
 .input {
-  margin-right: 20px;
+ 
+}
+
+.contact-us-input-item:hover {
+  border: 2px solid rgba(0, 0, 0, 0.3);
 }

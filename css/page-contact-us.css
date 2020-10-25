@@ -180,6 +180,24 @@
 
 .contact-us-input-email-input,
 .contact-us-input-phone {
+ 
   width: 290px;
   height: 50px;
+  padding: 14px 20px 11px;
+  outline: none;
+  background: #ffffff;
+  border-radius: 0;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1e0606;
+}
+
+.contact-us-input-phone:hover, .contact-us-input-email-input:hover  {
+  border: 2px solid rgba(0, 0, 0, 0.3);
 }
