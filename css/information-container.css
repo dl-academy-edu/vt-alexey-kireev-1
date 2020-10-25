@@ -2,7 +2,6 @@
   padding-left: 110px;
   padding-right: 147px;
   padding-top: 64px;
-  padding-bottom: 60px;
   display: flex;
 }
 
@@ -109,7 +108,6 @@
 .information-background-contacts::before {
   content: "";
   z-index: -1;
-  margin-bottom: -35px;
   margin-top: 26px;
   position: absolute;
   background-color: #e1f0f7;
@@ -117,4 +115,12 @@
   right:0;
   top:0;
   bottom:0;  
+}
+
+.information-background-about-us::before {
+  margin-bottom: -35px;
+}
+
+.information-background-contacts::before {
+  margin-bottom: -100px;
 }
