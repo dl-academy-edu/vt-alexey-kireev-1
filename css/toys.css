@@ -330,8 +330,6 @@ input[type="range"]::-webkit-slider-thumb {
   display: flex;
 }
 
-
-
 .toys-navigation-item input {
   display: none;
 }
@@ -356,10 +354,6 @@ input[type="range"]::-webkit-slider-thumb {
 .toys-navigation-item input[type="radio"]:checked + label {
   color: #c29974;
 }
-
-
-
-
 
 .toys-label-checkbox {
   position: absolute;

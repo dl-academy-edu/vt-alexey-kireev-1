@@ -13,7 +13,7 @@
     <section class="popup">
         <h2 class="visibility-hidden">Popup contacy us</h2>
         <form class="popup-form">
-            <button type="button" class="button popup-form-button-close" id="popup-close-button">
+            <button type="button" class="button popup-form-button-close" id="popup-close-button" title="Close" tabindex="0">
                 <img src="/Images/close.png" alt="close" width="15" height="15"></button>
             <div class="input">
                 <label class="input-label" for="name">Name</label>
@@ -35,31 +35,31 @@
             </div>
             <div class="checkbox-block">
                 <input class="checkbox-input visibility-hidden" type="checkbox" id='approval' checked>
-                <label class="input-label-checkbox" for="approval"></label>
+                <label class="input-label-checkbox" for="approval" title="Press" tabindex="0"></label>
                 <p class="checkbox-text">By clicking on the button, you consent to the processing of your personal data
                 </p>
             </div>
-            <button class="button popup-form-button-submit">SUBMIT</button>
+            <button class="button popup-form-button-submit" title="Sumbit">SUBMIT</button>
         </form>
     </section>
 
     <header class="header container">
-        <a href="#"><img src="images/logo.png" alt="Site logo" class="header-logo" width="100" height="52"></a>
+        <a href="#"><img src="images/logo.png" alt="Site logo" class="header-logo" width="100" height="52" title="Home"></a>
         <nav aria-label="Навигация по сайту" class="header-nav">
             <ul class="header-menu-list">
                 <li class="header-menu-item">
-                    <a href="#" class="header-menu-link">Blog</a>
+                    <a href="#" class="header-menu-link" title="Blog">Blog</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="#" class="header-menu-link">Catalog</a>
+                    <a href="#" class="header-menu-link" title="Catalog">Catalog</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="#" class="header-menu-link">About Us</a>
+                    <a href="#" class="header-menu-link" title="About Us">About Us</a>
                 </li>
             </ul>
         </nav>
-        <img src="images/search.png" alt="search" class="search" tabindex="0" width="17" height="17">
-        <a href="#" class="contact-us-header-link" id="popup-open-button">Contact Us</a>
+        <img src="images/search.png" alt="search" class="search" tabindex="0" width="17" height="17" tabindex="0" title="Search">
+        <a href="#" class="contact-us-header-link" id="popup-open-button" title="Contact Us">Contact Us</a>
     </header>
     <section class="slider container">
         <div class="slider-background">
@@ -67,29 +67,29 @@
                 <li class="slider-one-number">01</li>
                 <li class="slider-block-item" tabindex="0">
                     <input type="radio" name="page" id="slide1" checked>
-                    <label for="slide1"></label>
+                    <label for="slide1" title="Slide 1" tabindex="0"></label>
                 </li>
-                <li class="slider-block-item" tabindex="0">
+                <li class="slider-block-item">
                     <input type="radio" name="page" id="slide2">
-                    <label for="slide2"> </label>
+                    <label for="slide2" title="Slide 2" tabindex="0"></label>
                 </li>
-                <li class="slider-block-item" tabindex="0">
+                <li class="slider-block-item">
                     <input type="radio" name="page" id="slide3">
-                    <label for="slide3"></label>
+                    <label for="slide3" title="Slide 3" tabindex="0"></label>
                 </li>
-                <li class="slider-block-item" tabindex="0">
+                <li class="slider-block-item">
                     <input type="radio" name="page" id="slide4">
-                    <label for="slide4"></label>
+                    <label for="slide4" title="Slide 4" tabindex="0"></label>
                 </li>
             </ul>
             <div class="text-block-slider">
                 <h2 class="slider-one-title-big">THE OOH NOO COLLECTION</h2>
                 <h2 class="slider-one-title-small">Designed in Slovenia</h2>
-                <button class="slider-button">EXPLORE NOW</button>
+                <button class="slider-button" title="Explore now" tabindex="0">EXPLORE NOW</button>
             </div>
             <img src="Images/one-image-slider.png" alt="main images slider" class="one-image-slider" width="635"
                 height="461">
-                
+
         </div>
         <h3 class="slider-bottom slider-bottom-block">Free (continental) USA shipping on all orders of $100 USD or more!
         </h3>
@@ -98,32 +98,32 @@
         <section class="category-products container">
             <h2 class="category-products-title">Category Products</h2>
             <ul class="category-products-block-list">
-                <li class="category-products-block-item-1">
+                <li class="category-products-block-item-1" title="Apparel kids">
                     <a href="#">
                         <h3 class="product-title">APPAREL KIDS</h3>
                     </a>
                 </li>
-                <li class="category-products-block-item-2">
+                <li class="category-products-block-item-2" title="Holiday shop">
                     <a href="#">
                         <h3 class="product-title">HOLIDAY SHOP</h3>
                     </a>
                 </li>
-                <li class="category-products-block-item-3">
+                <li class="category-products-block-item-3" title="Toys">
                     <a href="#">
                         <h3 class="product-title">TOYS</h3>
                     </a>
                 </li>
-                <li class="category-products-block-item-4">
+                <li class="category-products-block-item-4" title="Accessories"> 
                     <a href="#">
                         <h3 class="product-title">ACCESSORIES</h3>
                     </a>
                 </li>
             </ul>
             <div class="category-products-navigation-block">
-                <button class="category-products-navigation button">
+                <button class="category-products-navigation button" title="Left">
                     <img src="Images/Vector.png" alt="vector left" width="13" height="26">
                 </button>
-                <button class="category-products-navigation button">
+                <button class="category-products-navigation button" title="Right">
                     <img src="Images/Vector-2.png" alt="vector right" width="13" height="26">
                 </button>
                 <p class="products-bottom-text">Modern finds for the modern home. Curated goods by unique designers
@@ -139,15 +139,15 @@
             <ul class="guarantee-list">
                 <li class="guarantee-block-input" tabindex="0">
                     <input type="radio" name="page-guarantee" id="delivery" value="1" checked>
-                    <label for="delivery">Delivery</label>
+                    <label for="delivery" title="Delivery" tabindex="0">Delivery</label>
                 </li>
                 <li class="guarantee-block-input" tabindex="0">
                     <input type="radio" name="page-guarantee" id="guarantee" value="2">
-                    <label for="guarantee">Guarantee</label>
+                    <label for="guarantee" title="Guarantee" tabindex="0">Guarantee</label>
                 </li>
                 <li class="guarantee-block-input" tabindex="0">
                     <input type="radio" name="page-guarantee" id="credit" value="3">
-                    <label for="credit">Credit</label>
+                    <label for="credit" title="Credit" tabindex="0">Credit</label>
                 </li>
             </ul>
             <p class="guarantee-description">Some days i feel like i've been working on dlk my entire life and there are
@@ -156,34 +156,38 @@
             <p class="guarantee-description">What started as an outlet to deal with the traumatic loss of my husband,
                 dlk has now become a truly happy
                 place for me and i have you and all of the beautiful designers that we work with to thank!</p>
-            <a class="guarantee-button" href="#">LEARN MORE</a>
+            <a class="guarantee-button" href="#" title="Learn More">LEARN MORE</a>
         </div>
     </section>
     <section class="parters-block container">
         <h2 class="visibility-hidden">Parters</h2>
         <ul class="parters-block-list">
-            <li class="parters-block-item">
+            <li class="parters-block-item" title="Mail">
                 <a href="#" class="parters-block-link">
                     <span class="visibility-hidden">Follow to partner</span>
-                    <img class="parters-block-img" src="images/partners/partners-mail.png" alt="partners mail" width="193" height="60">
+                    <img class="parters-block-img" src="images/partners/partners-mail.png" alt="partners mail"
+                        width="193" height="60">
                 </a>
             </li>
-            <li class="parters-block-item">
+            <li class="parters-block-item" title="Apple">
                 <a href="#" class="parters-block-link">
                     <span class="visibility-hidden">Follow to partner</span>
-                    <img class="parters-block-img" src="images/partners/partners-apple.png" alt="partners apple" width="179" height="61">
+                    <img class="parters-block-img" src="images/partners/partners-apple.png" alt="partners apple"
+                        width="179" height="61">
                 </a>
             </li>
-            <li class="parters-block-item">
+            <li class="parters-block-item" title="Eltex">
                 <a href="#" class="parters-block-link">
                     <span class="visibility-hidden">Follow to partner</span>
-                    <img class="parters-block-img" src="images/partners/partners-eltex.png" alt="partners eltex" width="216" height="46">
+                    <img class="parters-block-img" src="images/partners/partners-eltex.png" alt="partners eltex"
+                        width="216" height="46">
                 </a>
             </li>
-            <li class="parters-block-item">
+            <li class="parters-block-item" title="Owox">
                 <a href="#" class="parters-block-link">
                     <span class="visibility-hidden">Follow to partner</span>
-                    <img class="parters-block-img" src="images/partners/partners-owox.png" alt="partners owox" width="211" height="40">
+                    <img class="parters-block-img" src="images/partners/partners-owox.png" alt="partners owox"
+                        width="211" height="40">
                 </a>
             </li>
         </ul>
@@ -193,9 +197,10 @@
             <div class="information-background-about-us">
                 <h1 class="information-title-design">Design Life Kids</h1>
                 <h3 class="information-title-small">About Us</h3>
-                <p class="information-description-about">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely
+                <p class="information-description-about">Some days i feel like i've been working on dlk my entire life
+                    and there are other days that i am completely
                     shocked that four years have flown by. It's simply magical.</p>
-                <a class="information-button" href="#">BUY NOW</a>
+                <a class="information-button" href="#" title="Buy now">BUY NOW</a>
             </div>
         </div>
         <div class="contacts">
@@ -269,29 +274,29 @@
                     <hr>
                 </div>
                 <form class="form-block">
-                    <input class="footer-email" type="text" placeholder="Email">
-                    <button class="footer-button button">JOIN</button>
+                    <input class="footer-email" type="text" placeholder="Email" title="Email">
+                    <button class="footer-button button" title="Join">JOIN</button>
                 </form>
                 <div class="social-network-block">
                     <ul class="social-network-block-list">
                         <li class="social-network-block-item">
-                            <a href="#" class="social-network-block-link Facebook">
+                            <a href="#" class="social-network-block-link Facebook" title="Facebook">
                                 <span class="visibility-hidden">Follow to Facebook</span>
                             </a>
                         </li>
                         <li class="social-network-block-item">
-                            <a href="#" class="social-network-block-link twitter">
+                            <a href="#" class="social-network-block-link twitter" title="Twitter">
                                 <span class="visibility-hidden">Follow to Twitter</span>
                             </a>
                         </li>
                         <li class="social-network-block-item">
-                            <a href="#" class="social-network-block-link pinterest">
-                                <span class="visibility-hidden">Follow to Painerest</span>
+                            <a href="#" class="social-network-block-link pinterest" title="Painerest">
+                                <span class="visibility-hidden" title="Painerest">Follow to Painerest</span>
                             </a>
                         </li>
                         <li class="social-network-block-item">
                             <a href="#" class="social-network-block-link instagram">
-                                <span class="visibility-hidden">Follow to Instagram</span>
+                                <span class="visibility-hidden" title="Instagram">Follow to Instagram</span>
                             </a>
                         </li>
                     </ul>
@@ -306,19 +311,19 @@
                 <h3 class="rating-title">Company Rating</h3>
                 <div class="rating-stars-input">
                     <input type="radio" name="rating" id="stars-5" value="5">
-                    <label for="stars-5" title="Оценка «5»"></label>
+                    <label for="stars-5" title="Оценка «5»" tabindex="0"></label>
                     <input type="radio" name="rating" id="stars-4" value="4">
-                    <label for="stars-4" title="Оценка «4»"></label>
+                    <label for="stars-4" title="Оценка «4»" tabindex="0"></label>
                     <input type="radio" name="rating" id="stars-3" value="3">
-                    <label for="stars-3" title="Оценка «3»"></label>
+                    <label for="stars-3" title="Оценка «3»" tabindex="0"></label>
                     <input type="radio" name="rating" id="stars-2" value="2">
-                    <label for="stars-2" title="Оценка «2»"></label>
+                    <label for="stars-2" title="Оценка «2»" tabindex="0"></label>
                     <input type="radio" name="rating" id="stars-1" value="1">
-                    <label for="stars-1" title="Оценка «1»"></label>
+                    <label for="stars-1" title="Оценка «1»" tabindex="0"></label>
                 </div>
                 <h3 class="copyright">Copyright © 2018 Dlk • Design Life Kids</h3>
                 <a href="#">
-                    <h3 class="web-desing">Web Design — Direct Line Development</h3>
+                    <h3 class="web-desing" title="Direct Line">Web Design — Direct Line Development</h3>
                 </a>
             </div>
         </div>

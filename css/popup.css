@@ -38,16 +38,15 @@
 
 .inputs-row-two {
   display: flex;
- 
 }
 
 .input-item::placeholder {
-font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-color: #1E0606;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1e0606;
 }
 
 .input-item {
@@ -163,7 +162,6 @@ color: #1E0606;
 }
 
 .input {
- 
 }
 
 .contact-us-input-item:hover {

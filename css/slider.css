@@ -5,7 +5,6 @@
   min-height: 500px;
 }
 
-
 .one-image-slider {
   float: right;
   margin-right: 99px;
@@ -117,9 +116,8 @@
 }
 
 .slider-background {
-  display: flex;  
+  display: flex;
   position: relative;
-
 }
 
 .slider-background::before {
@@ -129,12 +127,11 @@
   position: absolute;
   display: block;
   width: 1180px;
-  background-color: #eee4db; 
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
- 
+  background-color: #eee4db;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .slider-block-item {

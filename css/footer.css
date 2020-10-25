@@ -67,9 +67,10 @@
   color: #a2a2a2;
 }
 
-.web-desing:hover, .web-desing:active {
-text-decoration-line: underline;
-color: #FFFFFF;
+.web-desing:hover,
+.web-desing:active {
+  text-decoration-line: underline;
+  color: #ffffff;
 }
 
 .copyright {
@@ -120,8 +121,6 @@ color: #FFFFFF;
 .footer-button:active {
   background: #cfaf91;
 }
-
-
 
 .footer-hr-bottom {
   padding-top: 22px;

@@ -13,20 +13,20 @@
     <section class="popup">
         <h2 class="visibility-hidden">Popup contacy us</h2>
         <form class="popup-form">
-            <button type="button" class="button popup-form-button-close" id="popup-close-button">
+            <button type="button" class="button popup-form-button-close" id="popup-close-button" title="Close" tabindex="0">
                 <img src="/Images/close.png" alt="close" width="15" height="15"></button>
             <div class="input">
                 <label class="input-label" for="name">Name</label>
                 <input class="input-item" type="text" id="name">
             </div>
             <div class="inputs-row-two">
-                <div class="input">
+                <div class="contact-us-input">
                     <label class="input-label" for="phone">Phone</label>
-                    <input class="input-item" type="text" id="phone">
+                    <input class="contact-us-input-phone" type="text" id="phone">
                 </div>
-                <div class="input">
+                <div class="contact-us-input-email">
                     <label class="input-label" for="email">Email</label>
-                    <input class="input-item" type="text" id="email">
+                    <input class="contact-us-input-email-input" type="text" id="email">
                 </div>
             </div>
             <div class="input">
@@ -35,36 +35,37 @@
             </div>
             <div class="checkbox-block">
                 <input class="checkbox-input visibility-hidden" type="checkbox" id='approval' checked>
-                <label class="input-label-checkbox" for="approval"></label>
+                <label class="input-label-checkbox" for="approval" title="Press" tabindex="0"></label>
                 <p class="checkbox-text">By clicking on the button, you consent to the processing of your personal data
                 </p>
             </div>
-            <button class="button popup-form-button-submit">SUBMIT</button>
+            <button class="button popup-form-button-submit" title="Sumbit">SUBMIT</button>
         </form>
     </section>
 
     <header class="header container">
-        <div class="header-logo"><a href="#"><img src="images/logo.png" alt="Site logo" class="header-logo" width="100" height="52"></a></div>
+        <div class="header-logo"><a href="#"><img src="images/logo.png" alt="Site logo" class="header-logo" width="100"
+                    height="52" title="Home"></a></div>
         <nav aria-label="Навигация по сайту" class="header-nav">
             <ul class="header-menu-list">
                 <li class="header-menu-item">
-                    <a href="#" class="header-menu-link">Blog</a>
+                    <a href="#" class="header-menu-link" title="Blog">Blog</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="#" class="header-menu-link" style="pointer-events:none">Catalog</a>
+                    <a href="#" class="header-menu-link" style="pointer-events:none" tabindex="1" >Catalog</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="#" class="header-menu-link">About Us</a>
+                    <a href="#" class="header-menu-link" title="About Us" title="About us">About Us</a>
                 </li>
             </ul>
         </nav>
-        <img src="images/search.png" alt="search" class="search" tabindex="0" width="17" height="17">
-        <a href="#" class="contact-us-header-link" id="popup-open-button">Contact Us</a>
+        <img src="images/search.png" alt="search" class="search" tabindex="0" width="17" height="17" title="Search">
+        <a href="#" class="contact-us-header-link" id="popup-open-button" title="Contact us">Contact Us</a>
     </header>
     <div class="catalog-block-title container">
         <h1 class="catalog-title">CATEGORY PRODUCTS</h1>
         <div class="catalog-block-navigation">
-            <a class="catalog-navigation" href="#">Home</a>
+            <a class="catalog-navigation" href="#" title="Home">Home</a>
             <img class="Catalog-vector" src="images/vector-Stroke.png" alt="vector-Stroke" width="8" height="12">
             <div class="catalog-navigation-disabled">Catalog</div>
         </div>
@@ -72,34 +73,34 @@
     <main class="catalog container">
         <article class="catalog-block ">
             <ul class="catalog-block-list">
-                <li class="catalog-block-item-1">
+                <li class="catalog-block-item-1" title="Learn more">
                     <a class="catalog-item-link" href="#">
                         <h3 class="catalog-item-title">APPAREL KIDS</h3>
                     </a>
                 </li>
-                <li class="catalog-block-item-2">
+                <li class="catalog-block-item-2" title="Learn more">
                     <a class="catalog-item-link" href="#">
                         <h3 class="catalog-item-title">HOLIDAY SHOP</h3>
                     </a>
                 </li>
-                <li class="catalog-block-item-3">
+                <li class="catalog-block-item-3" title="Learn more">
                     <a class="catalog-item-link" href="#">
                         <h3 class="catalog-item-title">TOYS</h3>
                     </a>
                 </li>
             </ul>
             <ul class="catalog-block-list-2">
-                <li class="catalog-block-item-4">
+                <li class="catalog-block-item-4" title="Learn more">
                     <a class="catalog-item-link" href="#">
                         <h3 class="catalog-item-title">ACCESSORIES</h3>
                     </a>
                 </li>
-                <li class="catalog-block-item-5">
+                <li class="catalog-block-item-5" title="Learn more">
                     <a class="catalog-item-link" href="#">
                         <h3 class="catalog-item-title">SALE</h3>
                     </a>
                 </li>
-                <li class="catalog-block-item-6">
+                <li class="catalog-block-item-6" title="Learn more">
                     <a class="catalog-item-link" href="#">
                         <h3 class="catalog-item-title">APPAREL ADULTS</h3>
                     </a>
@@ -180,29 +181,29 @@
                     <hr>
                 </div>
                 <form class="form-block">
-                    <input class="footer-email" type="text" placeholder="Email">
-                    <button class="footer-button button">JOIN</button>
+                    <input class="footer-email" type="text" placeholder="Email" title="Email">
+                    <button class="footer-button button" title="Join">JOIN</button>
                 </form>
                 <div class="social-network-block">
                     <ul class="social-network-block-list">
                         <li class="social-network-block-item">
-                            <a href="#" class="social-network-block-link Facebook">
+                            <a href="#" class="social-network-block-link Facebook" title="Facebook">
                                 <span class="visibility-hidden">Follow to Facebook</span>
                             </a>
                         </li>
                         <li class="social-network-block-item">
-                            <a href="#" class="social-network-block-link twitter">
+                            <a href="#" class="social-network-block-link twitter" title="Twitter">
                                 <span class="visibility-hidden">Follow to Twitter</span>
                             </a>
                         </li>
                         <li class="social-network-block-item">
-                            <a href="#" class="social-network-block-link pinterest">
-                                <span class="visibility-hidden">Follow to Painerest</span>
+                            <a href="#" class="social-network-block-link pinterest" title="Painerest">
+                                <span class="visibility-hidden" title="Painerest">Follow to Painerest</span>
                             </a>
                         </li>
                         <li class="social-network-block-item">
                             <a href="#" class="social-network-block-link instagram">
-                                <span class="visibility-hidden">Follow to Instagram</span>
+                                <span class="visibility-hidden" title="Instagram">Follow to Instagram</span>
                             </a>
                         </li>
                     </ul>
@@ -217,19 +218,19 @@
                 <h3 class="rating-title">Company Rating</h3>
                 <div class="rating-stars-input">
                     <input type="radio" name="rating" id="stars-5" value="5">
-                    <label for="stars-5" title="Оценка «5»"></label>
+                    <label for="stars-5" title="Оценка «5»" tabindex="0"></label>
                     <input type="radio" name="rating" id="stars-4" value="4">
-                    <label for="stars-4" title="Оценка «4»"></label>
+                    <label for="stars-4" title="Оценка «4»" tabindex="0"></label>
                     <input type="radio" name="rating" id="stars-3" value="3">
-                    <label for="stars-3" title="Оценка «3»"></label>
+                    <label for="stars-3" title="Оценка «3»" tabindex="0"></label>
                     <input type="radio" name="rating" id="stars-2" value="2">
-                    <label for="stars-2" title="Оценка «2»"></label>
+                    <label for="stars-2" title="Оценка «2»" tabindex="0"></label>
                     <input type="radio" name="rating" id="stars-1" value="1">
-                    <label for="stars-1" title="Оценка «1»"></label>
+                    <label for="stars-1" title="Оценка «1»" tabindex="0"></label>
                 </div>
                 <h3 class="copyright">Copyright © 2018 Dlk • Design Life Kids</h3>
                 <a href="#">
-                    <h3 class="web-desing">Web Design — Direct Line Development</h3>
+                    <h3 class="web-desing" title="Direct Line">Web Design — Direct Line Development</h3>
                 </a>
             </div>
         </div>

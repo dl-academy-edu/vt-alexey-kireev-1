@@ -99,8 +99,8 @@
   color: #1e0606;
 }
 
-.information-background-about-us, .information-background-contacts {
-
+.information-background-about-us,
+.information-background-contacts {
   position: relative;
 }
 
@@ -111,10 +111,10 @@
   margin-top: 26px;
   position: absolute;
   background-color: #e1f0f7;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;  
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .information-background-about-us::before {
