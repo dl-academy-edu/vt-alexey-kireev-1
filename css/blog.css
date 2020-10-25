@@ -51,8 +51,7 @@
   margin-right: 13px;
   margin-bottom: 20px;
   display: block;
-  width: 380px;
-  height: 491px;
+  max-width: 380px;
 }
 
 .block-item-img {

@@ -7,7 +7,13 @@
 }
 
 .about-us {
-  margin-right: 57px;
+  width: 543px;
+}
+
+.contacts {
+  width: 543px;
+  margin-left: 57px;
+  margin-bottom: 60px;
 }
 
 .information-title-contacts,
@@ -73,8 +79,8 @@
 }
 
 .information-description-contacts {
+  width: 503px;
   padding-top: 20px;
-  padding-right: 30px;
   padding-left: 30px;
   font-style: normal;
   font-weight: normal;
@@ -84,8 +90,8 @@
 }
 
 .information-description-about {
+  width: 483px;
   padding-top: 10px;
-  padding-right: 30px;
   padding-left: 30px;
   font-style: normal;
   font-weight: normal;
@@ -94,21 +100,21 @@
   color: #1e0606;
 }
 
+.information-background-about-us, .information-background-contacts {
+
+  position: relative;
+}
+
 .information-background-about-us::before,
 .information-background-contacts::before {
   content: "";
   z-index: -1;
+  margin-bottom: -35px;
   margin-top: 26px;
   position: absolute;
   background-color: #e1f0f7;
-}
-
-.information-background-about-us::before {
-  width: 543px;
-  height: 236px;
-}
-
-.information-background-contacts::before {
-  width: 543px;
-  height: 209px;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;  
 }

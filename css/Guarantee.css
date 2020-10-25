@@ -47,7 +47,7 @@
 }
 
 .guarantee-description {
-  padding-top: 12px;
+  padding-bottom: 12px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -58,9 +58,7 @@
 .guarantee-list {
   bottom: 21px;
   position: relative;
-  margin-bottom: 97px;
   width: 326px;
-  height: 55px;
   font-family: Crimson Text;
   font-style: italic;
   font-weight: normal;

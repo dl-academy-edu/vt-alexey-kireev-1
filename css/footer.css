@@ -113,6 +113,16 @@ color: #FFFFFF;
   color: #ffffff;
 }
 
+.footer-button:hover {
+  background: #c29974;
+}
+
+.footer-button:active {
+  background: #cfaf91;
+}
+
+
+
 .footer-hr-bottom {
   padding-top: 22px;
   padding-bottom: 15px;

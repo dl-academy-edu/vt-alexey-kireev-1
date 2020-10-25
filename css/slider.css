@@ -1,9 +1,10 @@
 .slider {
   padding-left: 110px;
   padding-right: 110px;
-  min-width: 1180px;
+  max-width: 1180px;
   min-height: 500px;
 }
+
 
 .one-image-slider {
   float: right;
@@ -51,6 +52,7 @@
 }
 
 .slider-one-title-big {
+  width: 307px;
   padding-top: 181px;
   font-family: Montserrat;
   font-style: normal;
@@ -76,6 +78,7 @@
   margin-left: -2px;
   width: 163px;
   height: 42px;
+  margin-bottom: 89px;
   margin-top: -2px;
   background: #000000;
   font-style: normal;
@@ -114,7 +117,9 @@
 }
 
 .slider-background {
-  display: flex;
+  display: flex;  
+  position: relative;
+
 }
 
 .slider-background::before {
@@ -122,9 +127,14 @@
   z-index: -1;
   margin-top: 86px;
   position: absolute;
+  display: block;
   width: 1180px;
-  height: 411px;
-  background-color: #eee4db;
+  background-color: #eee4db; 
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+ 
 }
 
 .slider-block-item {

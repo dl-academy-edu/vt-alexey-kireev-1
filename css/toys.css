@@ -1,7 +1,7 @@
 .toys-block-title,
 .toys-block-filter {
   padding-left: 110px;
-  padding-bottom: 50px;
+  padding-bottom: 48px;
 }
 
 .toys-block-filter {
@@ -11,6 +11,8 @@
 }
 
 .toys-title {
+  margin-top: 18px;
+  margin-bottom: 18px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -31,8 +33,8 @@
 }
 
 .toys-navigation-vector {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 18px;
+  margin-right: 13px;
 }
 
 .toys-navigation-disabled {
@@ -70,7 +72,7 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .toys-block-coast {
-  margin-right: 94px;
+  margin-right: 112px;
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -93,7 +95,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .toys-block-color {
-  margin-right: 124px;
+  margin-right: 157px;
 }
 
 .toys-color-list {
@@ -114,7 +116,8 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .toys-block-amount {
-  margin-right: 60px;
+
+  margin-right: 99px;
 }
 
 .toys-list-amount {
@@ -122,6 +125,8 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .toys-item-amount {
+  width: 80px;
+height: 35px;
 }
 
 .toys-filter-button {
@@ -197,8 +202,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .toys-item {
   position: relative;
-  width: 380px;
-  height: 497px;
+  max-width: 380px;
   cursor: pointer;
 }
 .toys-item-hover-background {
