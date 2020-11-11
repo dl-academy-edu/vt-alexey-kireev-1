@@ -140,11 +140,7 @@
   margin-bottom: -4px;
 }
 
-.slider-block-item input {
-  display: none;
-}
-
-.slider-block-item label {
+.slider-block-item-page {
   display: inline-block;
   cursor: pointer;
   width: 31px;
@@ -152,8 +148,13 @@
   background-color: #d6cac2;
 }
 
-.slider-block-item input[type="radio"]:checked + label,
-.slider-block-item label:hover {
+.slider-block-item-page-active {
+  width: 31px;
+  height: 3px;
+  background-color: #715f5c;
+}
+
+.slider-block-item-page:hover {
   width: 31px;
   height: 3px;
   background-color: #715f5c;

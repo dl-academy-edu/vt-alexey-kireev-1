@@ -19,12 +19,12 @@
 }
 
 .blog-block {
-  width: 1200px;
-  padding-top: 30px;
+  width: 1250px;
+  padding-top: 14px;
 }
 
-.blog-navigation,
-.blog-navigation-disabled {
+.blog-navigation-link-page,
+.blog-navigation-link-disabled {
   font-family: Crimson Text;
   font-style: italic;
   font-weight: normal;
@@ -33,14 +33,24 @@
   color: #1e0606;
 }
 
-.blog-navigation-disabled {
+.blog-navigation-link-page:hover {
+  opacity: 0.5;
+}
+
+.blog-navigation-link-disabled {
   pointer-events: none;
   opacity: 0.5;
 }
 
-.blog-navigation-vector {
-  margin-left: 20px;
-  margin-right: 20px;
+.blog-navigation-list-page {
+  padding-top: 8px;
+  display: flex;
+}
+
+.blog-navigation::after {
+  content: url(/Images/Vector-Stroke.png);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .blog-item-list {
@@ -95,9 +105,9 @@
 }
 
 .blog-navigation-page {
-  padding-bottom: 47px;
-  padding-left: 110px;
-  padding-right: 110px;
+  padding-bottom: 44px;
+  padding-left: 102px;
+  padding-right: 106px;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -125,36 +135,35 @@
 
 .blog-navigation-item {
   margin-top: -15px;
-  padding-top: 2px;
-  padding-right: 65px;
+  padding-right: 57px;
 }
 
-.blog-navigation-item input {
-  display: none;
-}
-
-.blog-navigation-item label,
-.blog-navigation-item input:hover + label,
-.blog-navigation-item input[type="radio"]:checked + label {
-  cursor: pointer;
+.blog-navigation-item-number,
+.blog-navigation-item-number-active {
+  background: transparent;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+.blog-navigation-item-number {
+  cursor: pointer;
   color: #1e0606;
 }
 
-.blog-navigation-item input:hover + label {
+.blog-navigation-item-number:hover {
   opacity: 0.5;
 }
 
-.blog-navigation-item input[type="radio"]:checked + label {
+.blog-navigation-item-number-active {
   color: #c29974;
 }
 
 .vector-page {
+  background: transparent;
   margin-top: -10px;
   cursor: pointer;
 }
@@ -166,10 +175,3 @@
   opacity: 0.5;
 }
 
-.toys-navigation-page {
-  padding-left: 110px;
-  padding-right: 110px;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-}

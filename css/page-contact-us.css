@@ -2,9 +2,8 @@
   display: flex;
   padding-left: 107px;
   padding-right: 64px;
-  margin-top: 40px;
+  margin-top: 51px;
   margin-bottom: 57px;
-  height: 544px;
 }
 
 .contact-us-block-title {
@@ -24,15 +23,22 @@
   color: #1e0606;
 }
 
-.contact-us-navigation,
-.contact-us-navigation-disabled,
-.contact-us-vector {
-  position: relative;
-  bottom: 9px;
+.contact-us-navigation-link:hover {
+  opacity: 0.5;
 }
 
-.contact-us-navigation,
-.contact-us-navigation-disabled {
+.contact-us-navigation-list {
+  display: flex;
+}
+
+.contact-us-navigation::after {
+  content: url(/Images/Vector-Stroke.png);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact-us-navigation-link,
+.contact-us-navigation-link-disabled {
   font-family: Crimson Text;
   font-style: italic;
   font-weight: normal;
@@ -41,15 +47,10 @@
   color: #1e0606;
 }
 
-.contact-us-navigation-disabled {
+.contact-us-navigation-link-disabled {
   cursor: default;
   pointer-events: none;
   opacity: 0.5;
-}
-
-.contact-us-vector {
-  margin-left: 17px;
-  margin-right: 16px;
 }
 
 .contact-us-text-block {
@@ -92,11 +93,12 @@
   background: #e5eaf8;
   max-width: 685px;
   width: 100%;
+  min-height: 542px;
 }
 
 .form-button-submit {
+  cursor: pointer;
   margin-top: -3px;
-
   width: 106px;
   height: 40px;
   display: flex;
@@ -111,6 +113,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  justify-content: center;
 }
 
 .form-button-submit:hover {
@@ -121,9 +124,19 @@
   background: #cfaf91;
 }
 
+.contact-us-label-checkbox label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
 .contact-us-label-checkbox {
+  position: relative;
   cursor: pointer;
-  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 .contact-us-label-checkbox::before {
@@ -131,19 +144,17 @@
   content: "";
   width: 19px;
   height: 19px;
+  margin-right: 15px;
   border: 2px solid #c29974;
   box-sizing: border-box;
   border-radius: 3px;
 }
 
 .contact-us-label-checkbox::after {
-  width: 15px;
-  height: 15px;
   color: #c29974;
-  position: relative;
-  bottom: 5px;
-  right: 14px;
-  content: "✓";
+  position: absolute;
+  left: 3px;
+  content: url(/Images/Vector-contact-us-chack-box.png);
 }
 
 .contact-us-checkbox-input:checked + .contact-us-label-checkbox::after {
@@ -200,4 +211,12 @@
 .contact-us-input-phone:hover,
 .contact-us-input-email-input:hover {
   border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.contact-us-input-item::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1e0606;
 }

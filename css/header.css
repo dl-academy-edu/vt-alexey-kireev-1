@@ -43,6 +43,7 @@
   opacity: 0.4;
 }
 .search {
+  background: transparent;
   cursor: pointer;
   margin-left: auto;
 }
@@ -62,7 +63,7 @@
   line-height: 19px;
   text-transform: uppercase;
   color: #1e0606;
-  margin-left: 26px;
+  margin-left: 20px;
   margin-right: 2px;
 }
 

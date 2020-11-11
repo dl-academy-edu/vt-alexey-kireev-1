@@ -12,6 +12,10 @@
   padding-right: 127px;
 }
 
+.parters-block-item:hover {
+ opacity: 0.75;
+}
+
 .visibility-hidden {
   display: none;
 }

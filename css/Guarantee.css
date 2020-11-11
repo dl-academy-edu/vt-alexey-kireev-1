@@ -69,52 +69,33 @@
   color: #1e0606;
 }
 
-.guarantee-list input {
-  display: none;
-  position: relative;
-}
-
-.guarantee-list label {
-  margin-bottom: 7px;
+.guarantee-item,
+.guarantee-item-active {
+  margin-bottom: 11px;
   font-family: Crimson Text;
   font-style: italic;
   font-weight: normal;
   font-size: 26px;
   line-height: 32px;
-  display: inline-block;
+  color: #1e0606;
+}
+.guarantee-item {
   cursor: pointer;
-  user-select: none;
+  background: transparent;
 }
 
-.guarantee-list input[type="radio"]:checked + label {
+.guarantee-item-active {
+  text-align: left;
+  display: flex;
+  font-weight: bold;
   position: relative;
   right: 60px;
-  bottom: 14x;
   width: 326px;
   height: 55px;
   background-color: #e2f1f8;
-  z-index: 1;
   padding-left: 60px;
-  font-family: Crimson Text;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 32px;
-  color: #1e0606;
-  display: flex;
-  align-items: center;
 }
 
-.guarantee-list label:hover {
-  font-family: Crimson Text;
-  font-style: italic;
+.guarantee-item:hover {
   font-weight: bold;
-  font-size: 26px;
-  line-height: 32px;
-  color: #1e0606;
-}
-
-.guarantee-block-input {
-  margin-bottom: 10px;
-  outline: none;
 }

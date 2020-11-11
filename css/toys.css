@@ -1,7 +1,7 @@
 .toys-block-title,
 .toys-block-filter {
   padding-left: 110px;
-  padding-bottom: 48px;
+  padding-bottom: 33px;
 }
 
 .toys-block-filter {
@@ -22,8 +22,8 @@
   color: #1e0606;
 }
 
-.toys-navigation,
-.toys-navigation-disabled {
+.toys-navigation-link,
+.toys-navigation-link-disabled {
   font-family: Crimson Text;
   font-style: italic;
   font-weight: normal;
@@ -32,13 +32,18 @@
   color: #1e0606;
 }
 
-.toys-navigation-vector {
-  margin-left: 18px;
-  margin-right: 13px;
+.toys-navigation-link-disabled {
+  pointer-events: none;
+  opacity: 0.5;
 }
 
-.toys-navigation-disabled {
-  pointer-events: none;
+.toys-navigation::after {
+  content: url(/Images/Vector-Stroke.png);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.toys-navigation-link:hover {
   opacity: 0.5;
 }
 
@@ -101,9 +106,6 @@ input[type="range"]::-webkit-slider-thumb {
 
 .toys-color-list {
   margin-bottom: 42px;
-}
-
-.toys-color-item {
 }
 
 .toys-block-delivery {
@@ -175,8 +177,6 @@ input[type="range"]::-webkit-slider-thumb {
   height: 497px;
 }
 
-.toys-img {
-}
 
 .toys-text {
   padding-top: 30px;
@@ -198,36 +198,24 @@ input[type="range"]::-webkit-slider-thumb {
   color: #1e0606;
 }
 
-.toys-item {
-  position: relative;
-  max-width: 393px;
-  cursor: pointer;
-  margin-left: 10px;
-  margin-bottom: 43px;
+.toys-img {
+
 }
-.toys-item-hover-background {
+
+.toys-img:hover::after{
+  content: "LEARN MORE";
   width: 207px;
   height: 207px;
   position: absolute;
   background: #e5eaf8;
-  display: none;
   left: 90px;
   bottom: 0;
   right: 0;
   top: 90px;
-}
-
-.toys-item:hover .toys-item-hover-background {
   opacity: 0.9;
-  display: block;
-}
 
-.toys-item:active .toys-item-hover-background {
-  opacity: 0.67;
-  display: block;
-}
+/* text */
 
-.toys-item-hover-text {
   width: 207px;
   height: 207px;
   position: absolute;
@@ -243,6 +231,19 @@ input[type="range"]::-webkit-slider-thumb {
   justify-content: center;
   color: #1e0606;
   text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+
+}
+
+.toys-img:active::after {
+  opacity: 0.67;
+}
+
+.toys-item {
+  position: relative;
+  max-width: 393px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 43px;
 }
 
 .toys-item-amount {
@@ -322,36 +323,34 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .toys-navigation-item {
-  padding-bottom: 47px;
-  padding-top: 2px;
-  padding-right: 65px;
+  padding-bottom: 45px;
+  padding-right: 56px;
   justify-content: space-between;
   align-items: center;
   display: flex;
 }
 
-.toys-navigation-item input {
-  display: none;
-}
-
-.toys-navigation-item label,
-.toys-navigation-item input:hover + label,
-.toys-navigation-item input[type="radio"]:checked + label {
-  cursor: pointer;
+.toys-navigation-item-number,
+.toys-navigation-item-number-active {
+  background: transparent;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+.toys-navigation-item-number {
+  cursor: pointer;
   color: #1e0606;
 }
 
-.toys-navigation-item input:hover + label {
+.toys-navigation-item-number:hover {
   opacity: 0.5;
 }
 
-.toys-navigation-item input[type="radio"]:checked + label {
+.toys-navigation-item-number-active {
   color: #c29974;
 }
 
@@ -378,12 +377,9 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .toys-label-checkbox::after {
-  content: "✓";
-  color: #c29974;
-  font-size: 19px;
-  font-weight: 700;
+  content: url(/Images/Vector-contact-us-chack-box.png);
   position: absolute;
-  left: 5px;
+  left: 3px;
   top: -2px;
 }
 .toys-checkbox-input:checked + .toys-label-checkbox::after {
@@ -427,6 +423,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .toys-vector-page {
+  background: transparent;
   margin-top: -42px;
   cursor: pointer;
 }
@@ -436,4 +433,22 @@ input[type="range"]::-webkit-slider-thumb {
 
 .toys-vector-page path:active {
   opacity: 0.5;
+}
+
+.toys-navigation-list {
+  display: flex;
+}
+
+.toys-navigation-page {
+  padding-left: 107px;
+  padding-right: 102px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+
+.toys-navigation-list {
+  display: flex;
+  margin-left: 65px;
 }

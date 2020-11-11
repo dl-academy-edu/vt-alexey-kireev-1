@@ -1,10 +1,10 @@
 .catalog-block-title {
-  margin-top: -9px;
+  margin-top: 22px;
   padding-left: 110px;
 }
 
 .catalog-block-navigation {
-  margin-top: -9px;
+  margin-top: -2px;
   display: flex;
 }
 
@@ -18,13 +18,14 @@
   color: #1e0606;
 }
 .catalog-block {
-  margin-top: 17px;
+  margin-top: 3px;
 }
 
 .catalog-block-list {
 }
 
 .catalog-item-title {
+  width: 196px;
   display: table-caption;
   font-family: Montserrat;
   font-style: normal;
@@ -37,8 +38,8 @@
   text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
 
-.catalog-navigation,
-.catalog-navigation-disabled {
+.catalog-navigation-link,
+.catalog-navigation-link-disabled {
   font-family: Crimson Text;
   font-style: italic;
   font-weight: normal;
@@ -47,44 +48,39 @@
   color: #1e0606;
 }
 
-.Catalog-vector {
-  margin-top: 3px;
-  margin-left: 20px;
-  margin-right: 20px;
+.catalog-navigation-item::after {
+  content: url(/Images/Vector-Stroke.png);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.catalog-navigation-disabled {
+.catalog-navigation-list {
+  display: flex;
+}
+
+.catalog-navigation-link:hover {
+  opacity: 0.5;
+}
+
+.catalog-navigation-link-disabled {
   pointer-events: none;
   opacity: 0.5;
 }
 
 .catalog {
   padding-right: 210px;
-  padding-left: 110px;
+  padding-left: 90px;
 }
 
 .category-products {
 }
 
 .catalog-block-list {
-  justify-content: right;
+  justify-content: start;
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   margin: -1px;
-}
-
-.catalog-block-list-2 {
-  align-items: center;
-  justify-content: flex-end;
-  margin-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: -1px;
-}
-
-.catalog-block-item-1:first-of-type {
-  margin-left: 0px;
 }
 
 .catalog-item-title:hover,
@@ -92,43 +88,23 @@
   text-decoration-line: underline;
 }
 
-.catalog-block-item-1,
-.catalog-block-item-2,
-.catalog-block-item-3,
-.catalog-block-item-4,
-.catalog-block-item-5,
-.catalog-block-item-6 {
-  margin-left: 20px;
-  display: flex;
+.catalog-block-item {
+  margin-left: 19px;
   align-items: center;
+  display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 28px;
   min-width: 280px;
   min-height: 270px;
 }
 
-.catalog-block-item-1 {
-  background-image: url(../Images/image-1.jpg);
+.catalog-item-link:nth-child(6n + 4) {
+  margin-left: 200px;
 }
 
-.catalog-block-item-2 {
-  background-image: url(../Images/image-2.jpg);
-}
-
-.catalog-block-item-3 {
-  background-image: url(../Images/image-3.jpg);
-}
-
-.catalog-block-item-4 {
-  background-image: url(../Images/image-4.jpg);
-}
-
-.catalog-block-item-5 {
-  background-image: url(../Images/image-5.jpg);
-}
-
-.catalog-block-item-6 {
-  background-image: url(../Images/image-6.jpg);
+.catalog-img {
+  position: absolute;
+  z-index: -1;
 }
 
 .catalog-item-link {

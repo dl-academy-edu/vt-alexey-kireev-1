@@ -22,13 +22,14 @@
   max-width: 680px;
   height: 542px;
   width: 100%;
-  margin-bottom: 139px;
+  margin-bottom: 167px;
 }
 .input-label {
   user-select: none;
   margin-bottom: 6px;
   display: block;
   margin-top: 20px;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -97,6 +98,11 @@
 .input-label-checkbox {
   cursor: pointer;
   position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 .input-label-checkbox::before {
@@ -104,19 +110,17 @@
   content: "";
   width: 19px;
   height: 19px;
+  margin-right: 15px;
   border: 2px solid #c29974;
   box-sizing: border-box;
   border-radius: 3px;
 }
 
 .input-label-checkbox::after {
-  width: 15px;
-  height: 15px;
   color: #c29974;
-  position: relative;
-  bottom: 5px;
-  right: 14px;
-  content: "✓";
+  position: absolute;
+  left: 3px;
+  content: url(/Images/Vector-contact-us-chack-box.png);
 }
 
 .checkbox-input:checked + .input-label-checkbox::after {
@@ -127,6 +131,7 @@
   cursor: pointer;
   width: 106px;
   height: 40px;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -140,6 +145,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #e1e1e1;
+  justify-content: center;
 }
 
 .popup-form-button-close {

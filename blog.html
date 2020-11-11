@@ -10,39 +10,6 @@
 </head>
 
 <body>
-    <section class="popup">
-        <h2 class="visibility-hidden">Popup contacy us</h2>
-        <form class="popup-form">
-            <button type="button" class="button popup-form-button-close" id="popup-close-button" title="Click on Close">
-                <img src="/Images/close.png" alt="close" width="15" height="15"></button>
-            <div class="input">
-                <label class="input-label" for="name">Name</label>
-                <input class="input-item" type="text" id="name" title="Click on Name">
-            </div>
-            <div class="inputs-row-two">
-                <div class="contact-us-input">
-                    <label class="input-label" for="phone">Phone</label>
-                    <input class="contact-us-input-phone" type="text" id="phone" title="Click on Phone">
-                </div>
-                <div class="contact-us-input-email">
-                    <label class="input-label" for="email">Email</label>
-                    <input class="contact-us-input-email-input" type="text" id="email" title="Click on Email">
-                </div>
-            </div>
-            <div class="input">
-                <label class="input-label" for="message">Message</label>
-                <textarea class="input-item textarea" id="message" title="Click on Massage"></textarea>
-            </div>
-            <div class="checkbox-block">
-                <input class="checkbox-input visibility-hidden" type="checkbox" id='approval' checked>
-                <label class="input-label-checkbox" for="approval" title="Press"></label>
-                <p class="checkbox-text">By clicking on the button, you consent to the processing of your personal data
-                </p>
-            </div>
-            <button class="button popup-form-button-submit" title="Click on Sumbit">SUBMIT</button>
-        </form>
-    </section>
-
     <header class="header container">
         <div class="header-logo"><a href="#"><img src="images/logo.png" alt="Site logo" class="header-logo" width="100"
                     height="52" title="Go to Home"></a></div>
@@ -59,120 +26,124 @@
                 </li>
             </ul>
         </nav>
-        <img src="images/search.png" alt="search" class="search" width="17" height="17" title="Go to Search">
-        <a href="#" class="contact-us-header-link" id="popup-open-button" title="Go to Contact us">Contact Us</a>
+        <button class="button search"><img src="images/search.png" alt="search" width="17" height="17"
+                title="Go to Search"></button>
+        <a href="#" class="contact-us-header-link" title="Go to Contact us">Contact Us</a>
     </header>
     <div class="blog-block-title container">
         <h1 class="blog-title">BLOG</h1>
-        <a class="blog-navigation" href="#" title="Go to Home">Home</a>
-        <img class="blog-navigation-vector" src="images/vector-Stroke.png" alt="vector-Stroke" width="8" height="12">
-        <a class="blog-navigation-disabled">Blog</a>
+        <ul class="blog-navigation-list-page">
+            <li class="blog-navigation">
+                <a class="blog-navigation-link-page" href="#" title="Go to Home">Home</a>
+            </li>
+            <li>
+                <a class="blog-navigation-link-disabled">Blog</a>
+            </li>
+        </ul>
     </div>
     <main class="blog container">
         <article class="blog-block">
             <ul class="blog-item-list">
-                <li class="blog-item" title="Click on Learn more">
-                    <img class="block-item-img" src="Images/blog.jpg" alt="blog" width="380" height="220">
-                    <h3 class="blog-item-date">23rd August 2018</h3>
-                    <a href="#">
+                <a href="#">
+                    <li class="blog-item" title="Click on Learn more">
+                        <img class="block-item-img" src="Images/blog.jpg" alt="blog" width="380" height="220">
+                        <p class="blog-item-date">23rd August 2018</p>
                         <h2 class="blog-item-bold-text">Top 5 fastest growing it service companies in philly</h2>
-                    </a>
-                    <p class="blog-item-description">Direct Line Development’s Team is excited to announce that we
-                        received UpCity’s 2019 Local
-                        Excellence Award! This prestigious award is annually presented to the Top 1% of service
-                        providers in the given marketplace.</p>
-                </li>
-                <li class="blog-item" title="Click on Learn more">
-                    <img class="block-item-img" src="Images/blog-2.jpg" alt="blog-2" width="380" height="220">
-                    <h3 class="blog-item-date">23rd August 2018</h3>
-                    <a href="#">
+                        <p class="blog-item-description">Direct Line Development’s Team is excited to announce that we
+                            received UpCity’s 2019 Local
+                            Excellence Award! This prestigious award is annually presented to the Top 1% of service
+                            providers in the given marketplace.</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="blog-item" title="Click on Learn more">
+                        <img class="block-item-img" src="Images/blog-2.jpg" alt="blog-2" width="380" height="220">
+                        <p class="blog-item-date">23rd August 2018</p>
                         <h2 class="blog-item-bold-text">Best financial</h2>
-                    </a>
-                    <p class="blog-item-description">Direct Line Development is honored to be recognized as one of
-                        the Top 100 Fastest Growing
-                        Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
-                </li>
-                <li class="blog-item" title="Click on Learn more">
-                    <img class="block-item-img" src="Images/blog-3.jpg" alt="blog-3" width="380" height="220">
-                    <h3 class="blog-item-date">23rd August 2018</h3>
-                    <a href="#">
+                        <p class="blog-item-description">Direct Line Development is honored to be recognized as one of
+                            the Top 100 Fastest Growing
+                            Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="blog-item" title="Click on Learn more">
+                        <img class="block-item-img" src="Images/blog-3.jpg" alt="blog-3" width="380" height="220">
+                        <p class="blog-item-date">23rd August 2018</p>
                         <h2 class="blog-item-bold-text">Company logo or brand identity: which one is more important?
                             brand identity</h2>
-                    </a>
-                    <p class="blog-item-description">To survive in the world of digital marketing, you need to keep
-                        up with the latest SEO trends.
-                        Here are our simple, but effective, SEO tips for small business success.</p>
-                </li>
-                <li class="blog-item" title="Click on Learn more">
-                    <img class="block-item-img" src="Images/blog-4.jpg" alt="blog-4" width="380" height="220">
-                    <h3 class="blog-item-date">23rd August 2018</h3>
-                    <a href="#">
+                        <p class="blog-item-description">To survive in the world of digital marketing, you need to keep
+                            up with the latest SEO trends.
+                            Here are our simple, but effective, SEO tips for small business success.</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="blog-item" title="Click on Learn more">
+                        <img class="block-item-img" src="Images/blog-4.jpg" alt="blog-4" width="380" height="220">
+                        <p class="blog-item-date">23rd August 2018</p>
                         <h2 class="blog-item-bold-text">Best financial</h2>
-                    </a>
-                    <p class="blog-item-description">Direct Line Development is honored to be recognized as one of
-                        the Top 100 Fastest Growing
-                        Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
-                </li>
-                <li class="blog-item" title="Click on Learn more">
-                    <img class="block-item-img" src="Images/blog-5.jpg" alt="blog-5" width="380" height="220">
-                    <h3 class="blog-item-date">23rd August 2018</h3>
-                    <a href="#">
+                        <p class="blog-item-description">Direct Line Development is honored to be recognized as one of
+                            the Top 100 Fastest Growing
+                            Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="blog-item" title="Click on Learn more">
+                        <img class="block-item-img" src="Images/blog-5.jpg" alt="blog-5" width="380" height="220">
+                        <p class="blog-item-date">23rd August 2018</p>
                         <h2 class="blog-item-bold-text">Company logo or brand identity: which one is more important?
                             brand identity</h2>
-                    </a>
-                    <p class="blog-item-description">To survive in the world of digital marketing, you need to keep up
-                        with the latest SEO trends. Here are our simple, but effective, SEO tips for small business
-                        success.</p>
-                </li>
-                <li class="blog-item" title="Click on Learn more">
-                    <img class="block-item-img" src="Images/blog-6.jpg" alt="blog-6" width="380" height="220">
-                    <h3 class="blog-item-date">23rd August 2018</h3>
-                    <a href="#">
+                        <p class="blog-item-description">To survive in the world of digital marketing, you need to keep
+                            up
+                            with the latest SEO trends. Here are our simple, but effective, SEO tips for small business
+                            success.</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="blog-item" title="Click on Learn more">
+                        <img class="block-item-img" src="Images/blog-6.jpg" alt="blog-6" width="380" height="220">
+                        <p class="blog-item-date">23rd August 2018</p>
                         <h2 class="blog-item-bold-text">Top 5 fastest growing it service companies in philly</h2>
-                    </a>
-                    <p class="blog-item-description">Direct Line Development’s Team is excited to announce that we
-                        received UpCity’s 2019 Local
-                        Excellence Award! This prestigious award is annually presented to the Top 1% of service
-                        providers in the given marketplace.</p>
-                </li>
+                        <p class="blog-item-description">Direct Line Development’s Team is excited to announce that we
+                            received UpCity’s 2019 Local
+                            Excellence Award! This prestigious award is annually presented to the Top 1% of service
+                            providers in the given marketplace.</p>
+                    </li>
+                </a>
             </ul>
         </article>
     </main>
     <div class="blog-navigation-page container">
-        <svg width="18" height="30" viewBox="0 0 18 30" title="Press Left" tabindex="0" fill="none"
-            xmlns="http://www.w3.org/2000/svg" class="vector-page">
-            <path d="M16 2L3 15L16 28" stroke="#E4E1E1" stroke-width="4" />
-        </svg>
+        <button type="Sumbit" class="button vector-page">
+            <svg width="18" height="30" viewBox="0 0 18 30" title="Press Left" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 2L3 15L16 28" stroke="#E4E1E1" stroke-width="4" />
+            </svg>
+        </button>
         <ul class="blog-navigation-list">
             <li class="blog-navigation-item">
-                <input type="radio" name="page" id="1" checked>
-                <label for="1" title="Go to 1 page">1</label>
+                <button type="submit" class="button blog-navigation-item-number-active" title="Go to 1 page">1</button>
             </li>
             <li class="blog-navigation-item">
-                <input type="radio" name="page" id="2">
-                <label for="2" title="Go to 2 page">2</label>
+                <button type="submit" class="button blog-navigation-item-number" title="Go to 2 page">2</button>
             </li>
             <li class="blog-navigation-item">
-                <input type="radio" name="page" id="3">
-                <label for="3" title="Go to 3 page">3</label>
+                <button type="submit" class="button blog-navigation-item-number" title="Go to 3 page">3</button>
             </li>
             <li class="blog-navigation-item">
-                <input type="radio" name="page" id="4">
-                <label for="4" title="Go to 4 page">4</label>
+                <button type="submit" class="button blog-navigation-item-number" title="Go to 4 page">4</button>
             </li>
         </ul>
-        <svg width="18" height="30" viewBox="0 0 18 30" title="Press Right" tabindex="0" fill="none"
-            xmlns="http://www.w3.org/2000/svg" class="vector-page">
-            <path d="M2 2L15 15L2 28" stroke="#E4E1E1" stroke-width="4" />
-        </svg>
+        <button type="Sumbit" class="button vector-page">
+            <svg width="18" height="30" viewBox="0 0 18 30" title="Press Right" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2L15 15L2 28" stroke="#E4E1E1" stroke-width="4" />
+            </svg>
+        </button>
     </div>
     <footer class="footer">
         <div class="footer-block ">
             <section class="footer-navigation">
                 <h2 class="footer-title">Navigation</h2>
-                <div class="footer-hr">
-                    <hr>
-                </div>
                 <ul class="footer-navigation-list">
                     <li class="footer-navigation-items">
                         <a class="footer-navigation-link" href="#" title="Go to About Us">About Us</a>
@@ -197,9 +168,6 @@
             </section>
             <section class="footer-navigation">
                 <h2 class="footer-title">Customer Information</h2>
-                <div class="footer-hr">
-                    <hr>
-                </div>
                 <ul class="footer-navigation-list">
                     <li class="footer-navigation-items">
                         <a class="footer-navigation-link" href="#" title="Go toContact Us">Contact Us</a>
@@ -225,12 +193,9 @@
             </section>
             <section class="footer-navigation">
                 <h2 class="footer-title">Connect</h2>
-                <div class="footer-hr">
-                    <hr>
-                </div>
                 <form class="form-block">
                     <input class="footer-email" type="text" placeholder="Email" title="Email">
-                    <button class="footer-button button" title="Press Join">JOIN</button>
+                    <button action="#" class="footer-button button" title="Press Join" type="Sumbit">JOIN</button>
                 </form>
                 <div class="social-network-block">
                     <ul class="social-network-block-list">
@@ -259,11 +224,8 @@
             </section>
         </div>
         <div class="footer-block-bottom">
-            <div class="footer-hr-bottom">
-                <hr>
-            </div>
             <div class="rating">
-                <h3 class="rating-title">Company Rating</h3>
+                <p class="rating-title">Company Rating</p>
                 <div class="rating-stars-input">
                     <input type="radio" name="rating" id="stars-5" value="5">
                     <label for="stars-5" title="Give a rating of 5"></label>
@@ -276,13 +238,45 @@
                     <input type="radio" name="rating" id="stars-1" value="1">
                     <label for="stars-1" title="Give a rating of 1"></label>
                 </div>
-                <h3 class="copyright">Copyright © 2018 Dlk • Design Life Kids</h3>
+                <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
                 <a href="#" title="Go to Direct Line">
-                    <h3 class="web-desing">Web Design — Direct Line Development</h3>
+                    <p class="web-desing">Web Design — Direct Line Development</p>
                 </a>
             </div>
         </div>
     </footer>
+    <section class="popup">
+        <h2 class="visibility-hidden">Popup contacy us</h2>
+        <form class="popup-form">
+            <button type="button" class="button popup-form-button-close" id="popup-close-button" title="Click on Close">
+                <img src="/Images/close.png" alt="close" width="15" height="15"></button>
+            <div class="input">
+                <label class="input-label" for="name">Name</label>
+                <input class="input-item" type="text" id="name" title="Click on Name">
+            </div>
+            <div class="inputs-row-two">
+                <div class="contact-us-input">
+                    <label class="input-label" for="phone">Phone</label>
+                    <input class="contact-us-input-phone" type="text" id="phone" title="Click on Phone">
+                </div>
+                <div class="contact-us-input-email">
+                    <label class="input-label" for="email">Email</label>
+                    <input class="contact-us-input-email-input" type="text" id="email" title="Click on Email">
+                </div>
+            </div>
+            <div class="input">
+                <label class="input-label" for="message">Message</label>
+                <textarea class="input-item textarea" id="message" title="Click on Massage"></textarea>
+            </div>
+            <div class="checkbox-block">
+                <input class="checkbox-input visibility-hidden" type="checkbox" id='approval' checked>
+                <label class="input-label-checkbox" for="approval" title="Press">By clicking on the button, you consent
+                    to the processing of your personal data</label>
+            </div>
+            <button action="#" type="Sumbit" class="button popup-form-button-submit"
+                title="Click on Sumbit">SUBMIT</button>
+        </form>
+    </section>
     <script src="/js/index.js"></script>
 </body>
 

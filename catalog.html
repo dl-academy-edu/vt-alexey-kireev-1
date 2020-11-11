@@ -10,39 +10,6 @@
 </head>
 
 <body>
-    <section class="popup">
-        <h2 class="visibility-hidden">Popup contacy us</h2>
-        <form class="popup-form">
-            <button type="button" class="button popup-form-button-close" id="popup-close-button" title="Click on Close">
-                <img src="/Images/close.png" alt="close" width="15" height="15"></button>
-            <div class="input">
-                <label class="input-label" for="name">Name</label>
-                <input class="input-item" type="text" id="name" title="Click on Name">
-            </div>
-            <div class="inputs-row-two">
-                <div class="contact-us-input">
-                    <label class="input-label" for="phone">Phone</label>
-                    <input class="contact-us-input-phone" type="text" id="phone" title="Click on Phone">
-                </div>
-                <div class="contact-us-input-email">
-                    <label class="input-label" for="email">Email</label>
-                    <input class="contact-us-input-email-input" type="text" id="email" title="Click on Email">
-                </div>
-            </div>
-            <div class="input">
-                <label class="input-label" for="message">Message</label>
-                <textarea class="input-item textarea" id="message" title="Click on Massage"></textarea>
-            </div>
-            <div class="checkbox-block">
-                <input class="checkbox-input visibility-hidden" type="checkbox" id='approval' checked>
-                <label class="input-label-checkbox" for="approval" title="Press"></label>
-                <p class="checkbox-text">By clicking on the button, you consent to the processing of your personal data
-                </p>
-            </div>
-            <button class="button popup-form-button-submit" title="Click on Sumbit">SUBMIT</button>
-        </form>
-    </section>
-
     <header class="header container">
         <div class="header-logo"><a href="#"><img src="images/logo.png" alt="Site logo" class="header-logo" width="100"
                     height="52" title="Home"></a></div>
@@ -59,52 +26,64 @@
                 </li>
             </ul>
         </nav>
-        <img src="images/search.png" alt="search" class="search" width="17" height="17" title="Search">
-        <a href="#" class="contact-us-header-link" id="popup-open-button" title="Contact us">Contact Us</a>
+        <button class="button search"><img src="images/search.png" alt="search" width="17" height="17"
+                title="Go to Search"></button>
+        <a href="#" class="contact-us-header-link" title="Contact us">Contact Us</a>
     </header>
     <div class="catalog-block-title container">
         <h1 class="catalog-title">CATEGORY PRODUCTS</h1>
         <div class="catalog-block-navigation">
-            <a class="catalog-navigation" href="#" title="Home">Home</a>
-            <img class="Catalog-vector" src="images/vector-Stroke.png" alt="vector-Stroke" width="8" height="12">
-            <div class="catalog-navigation-disabled">Catalog</div>
+            <ul class="catalog-navigation-list">
+                <li class="catalog-navigation-item">
+                    <a class="catalog-navigation-link" href="#" title="Home">Home</a>
+                </li>
+                <li>
+                    <div class="catalog-navigation-link-disabled">Catalog</div>
+                </li>
         </div>
+        </ul>
     </div>
+
     <main class="catalog container">
         <article class="catalog-block ">
             <ul class="catalog-block-list">
-                <li class="catalog-block-item-1" title="Learn more">
-                    <a class="catalog-item-link" href="#">
+                <a class="catalog-item-link" href="#" title="Go to apparel kids">
+                    <li class="catalog-block-item">
+                        <img class="catalog-img" src="/Images/image-1.jpg" alt="apparel kids" width="280" height="270">
                         <h3 class="catalog-item-title">APPAREL KIDS</h3>
-                    </a>
-                </li>
-                <li class="catalog-block-item-2" title="Learn more">
-                    <a class="catalog-item-link" href="#">
+                    </li>
+                </a>
+                <a class="catalog-item-link" href="#" title="Go to holiday shop">
+                    <li class="catalog-block-item">
+                        <img class="catalog-img" src="/Images/image-2.jpg" alt="holiday shop" width="280" height="270">
                         <h3 class="catalog-item-title">HOLIDAY SHOP</h3>
-                    </a>
-                </li>
-                <li class="catalog-block-item-3" title="Learn more">
-                    <a class="catalog-item-link" href="#">
+                    </li>
+                </a>
+                <a class="catalog-item-link" href="#" title="Go to toys">
+                    <li class="catalog-block-item">
+                        <img class="catalog-img" src="/Images/image-3.jpg" alt="toys" width="280" height="270">
                         <h3 class="catalog-item-title">TOYS</h3>
-                    </a>
-                </li>
-            </ul>
-            <ul class="catalog-block-list-2">
-                <li class="catalog-block-item-4" title="Learn more">
-                    <a class="catalog-item-link" href="#">
+                    </li>
+                </a>
+                <a class="catalog-item-link" href="#" title="Go to accessories">
+                    <li class="catalog-block-item">
+                        <img class="catalog-img" src="/Images/image-4.jpg" alt="accessories" width="280" height="270">
                         <h3 class="catalog-item-title">ACCESSORIES</h3>
-                    </a>
-                </li>
-                <li class="catalog-block-item-5" title="Learn more">
-                    <a class="catalog-item-link" href="#">
+                    </li>
+                </a>
+                <a class="catalog-item-link" href="#" title="Go to sale">
+                    <li class="catalog-block-item">
+                        <img class="catalog-img" src="/Images/image-5.jpg" alt="sale" width="280" height="270">
                         <h3 class="catalog-item-title">SALE</h3>
-                    </a>
-                </li>
-                <li class="catalog-block-item-6" title="Learn more">
-                    <a class="catalog-item-link" href="#">
+                    </li>
+                </a>
+                <a class="catalog-item-link" href="#" title="Go to apparel adults">
+                    <li class="catalog-block-item">
+                        <img class="catalog-img" src="/Images/image-6.jpg" alt="apparel adults" width="280"
+                            height="270">
                         <h3 class="catalog-item-title">APPAREL ADULTS</h3>
-                    </a>
-                </li>
+                    </li>
+                </a>
             </ul>
         </article>
     </main>
@@ -125,9 +104,6 @@
         <div class="footer-block ">
             <section class="footer-navigation">
                 <h2 class="footer-title">Navigation</h2>
-                <div class="footer-hr">
-                    <hr>
-                </div>
                 <ul class="footer-navigation-list">
                     <li class="footer-navigation-items">
                         <a class="footer-navigation-link" href="#" title="Go to About Us">About Us</a>
@@ -152,9 +128,6 @@
             </section>
             <section class="footer-navigation">
                 <h2 class="footer-title">Customer Information</h2>
-                <div class="footer-hr">
-                    <hr>
-                </div>
                 <ul class="footer-navigation-list">
                     <li class="footer-navigation-items">
                         <a class="footer-navigation-link" href="#" title="Go toContact Us">Contact Us</a>
@@ -180,12 +153,9 @@
             </section>
             <section class="footer-navigation">
                 <h2 class="footer-title">Connect</h2>
-                <div class="footer-hr">
-                    <hr>
-                </div>
                 <form class="form-block">
                     <input class="footer-email" type="text" placeholder="Email" title="Email">
-                    <button class="footer-button button" title="Press Join">JOIN</button>
+                    <button action="#" class="footer-button button" title="Press Join" type="Sumbit">JOIN</button>
                 </form>
                 <div class="social-network-block">
                     <ul class="social-network-block-list">
@@ -214,11 +184,8 @@
             </section>
         </div>
         <div class="footer-block-bottom">
-            <div class="footer-hr-bottom">
-                <hr>
-            </div>
             <div class="rating">
-                <h3 class="rating-title">Company Rating</h3>
+                <p class="rating-title">Company Rating</p>
                 <div class="rating-stars-input">
                     <input type="radio" name="rating" id="stars-5" value="5">
                     <label for="stars-5" title="Give a rating of 5"></label>
@@ -231,13 +198,45 @@
                     <input type="radio" name="rating" id="stars-1" value="1">
                     <label for="stars-1" title="Give a rating of 1"></label>
                 </div>
-                <h3 class="copyright">Copyright © 2018 Dlk • Design Life Kids</h3>
+                <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
                 <a href="#" title="Go to Direct Line">
-                    <h3 class="web-desing">Web Design — Direct Line Development</h3>
+                    <p class="web-desing">Web Design — Direct Line Development</p>
                 </a>
             </div>
         </div>
     </footer>
+    <section class="popup">
+        <h2 class="visibility-hidden">Popup contacy us</h2>
+        <form class="popup-form">
+            <button type="button" class="button popup-form-button-close" id="popup-close-button" title="Click on Close">
+                <img src="/Images/close.png" alt="close" width="15" height="15"></button>
+            <div class="input">
+                <label class="input-label" for="name">Name</label>
+                <input class="input-item" type="text" id="name" title="Click on Name">
+            </div>
+            <div class="inputs-row-two">
+                <div class="contact-us-input">
+                    <label class="input-label" for="phone">Phone</label>
+                    <input class="contact-us-input-phone" type="text" id="phone" title="Click on Phone">
+                </div>
+                <div class="contact-us-input-email">
+                    <label class="input-label" for="email">Email</label>
+                    <input class="contact-us-input-email-input" type="text" id="email" title="Click on Email">
+                </div>
+            </div>
+            <div class="input">
+                <label class="input-label" for="message">Message</label>
+                <textarea class="input-item textarea" id="message" title="Click on Massage"></textarea>
+            </div>
+            <div class="checkbox-block">
+                <input class="checkbox-input visibility-hidden" type="checkbox" id='approval' checked>
+                <label class="input-label-checkbox" for="approval" title="Press">By clicking on the button, you consent
+                    to the processing of your personal data</label>
+            </div>
+            <button action="#" type="Sumbit" class="button popup-form-button-submit"
+                title="Click on Sumbit">SUBMIT</button>
+        </form>
+    </section>
     <script src="/js/index.js"></script>
 </body>
 
