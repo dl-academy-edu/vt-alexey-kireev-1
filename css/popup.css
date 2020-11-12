@@ -96,6 +96,7 @@
 }
 
 .input-label-checkbox {
+  margin-top: -5px;
   cursor: pointer;
   position: absolute;
   font-family: "Roboto";
@@ -106,6 +107,7 @@
 }
 
 .input-label-checkbox::before {
+  margin-top: 3px;
   display: inline-block;
   content: "";
   width: 19px;

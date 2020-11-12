@@ -26,7 +26,7 @@
                 </li>
             </ul>
         </nav>
-        <button class="button search"><img src="images/search.png" alt="search" width="17" height="17"
+        <button class="button search" type="button"><img src="images/search.png" alt="search" width="17" height="17"
                 title="Go to Search"></button>
         <a href="#" class="contact-us-header-link" style="pointer-events:none" title="Go to Contact us">Contact Us</a>
     </header>
@@ -42,7 +42,7 @@
         </ul>
     </div>
     <main class="contact-us-block container">
-        <form class="contact-us-form">
+        <form class="contact-us-form" action="#">
             <div class="contact-us-input" title="Click on Name">
                 <label class="input-label" for="name">Name</label>
                 <input class="contact-us-input-item" type="text" id="name" placeholder="Ivan Ivanov">
@@ -66,7 +66,7 @@
                 <label class="contact-us-label-checkbox" for="contact-us-approval" title="Press">By clicking on the
                     button, you consent to the processing of your personal data</label>
             </div>
-            <button action="#" type="Sumbit" class="button form-button-submit" title="Click on Submit">SUBMIT</button>
+            <button type="sumbit" class="button form-button-submit" title="Click on Submit">SUBMIT</button>
         </form>
         <div class="contact-us-text-block">
             <p class="contact-us-text-1">Our support team are on-hand to assist with any issues you are experiencing.
@@ -129,9 +129,9 @@
             </section>
             <section class="footer-navigation">
                 <h2 class="footer-title">Connect</h2>
-                <form class="form-block">
+                <form class="form-block" action="#">
                     <input class="footer-email" type="text" placeholder="Email" title="Email">
-                    <button action="#" class="footer-button button" title="Press Join" type="Sumbit">JOIN</button>
+                    <button class="footer-button button" title="Press Join" type="sumbit">JOIN</button>
                 </form>
                 <div class="social-network-block">
                     <ul class="social-network-block-list">
@@ -183,7 +183,7 @@
     </footer>
     <section class="popup">
         <h2 class="visibility-hidden">Popup contacy us</h2>
-        <form class="popup-form">
+        <form class="popup-form" action="#">
             <button type="button" class="button popup-form-button-close" id="popup-close-button" title="Click on Close">
                 <img src="/Images/close.png" alt="close" width="15" height="15"></button>
             <div class="input">
@@ -209,8 +209,7 @@
                 <label class="input-label-checkbox" for="approval" title="Press">By clicking on the button, you consent
                     to the processing of your personal data</label>
             </div>
-            <button action="#" type="Sumbit" class="button popup-form-button-submit"
-                title="Click on Sumbit">SUBMIT</button>
+            <button type="submit" class="button popup-form-button-submit" title="Click on Sumbit">SUBMIT</button>
         </form>
     </section>
     <script src="/js/index.js"></script>

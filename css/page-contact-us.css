@@ -131,6 +131,7 @@
   line-height: 19px;
 }
 .contact-us-label-checkbox {
+  margin-top: -5px;
   position: relative;
   cursor: pointer;
   font-style: normal;
