@@ -133,10 +133,7 @@
 .contact-us-label-checkbox {
   position: relative;
   cursor: pointer;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  margin-top: -3px;
 }
 
 .contact-us-label-checkbox::before {
@@ -219,4 +216,13 @@
   font-size: 18px;
   line-height: 25px;
   color: #1e0606;
+}
+
+.contact-us-chackbox-text {
+  position: relative;
+  top: -2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
 }

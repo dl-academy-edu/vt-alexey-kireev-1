@@ -91,9 +91,11 @@
   color: #1e0606;
 }
 
-.blog-item-bold-text:hover,
-.blog-item-bold-text:active {
+.block-item-link:hover,
+.block-item-link:active {
+  cursor: pointer;
   text-decoration-line: underline;
+  text-decoration-color: #000000;
 }
 
 .blog-item-description {
@@ -174,4 +176,3 @@
 .vector-page path:active {
   opacity: 0.5;
 }
-
