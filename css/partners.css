@@ -1,7 +1,5 @@
 .parters-block {
-  padding-top: 79px;
-  padding-left: 110px;
-  padding-right: 110px;
+  padding: 79px 110px 0px 110px;
 }
 
 .parters-block-list {
@@ -12,10 +10,10 @@
   padding-right: 127px;
 }
 
-.parters-block-link:hover {
- opacity: 0.75;
+.parters-block-item:nth-child(4) {
+  margin-top: 5px;
 }
 
-.visibility-hidden {
-  display: none;
+.parters-block-link:hover {
+  opacity: 0.75;
 }

@@ -1,3 +1,8 @@
+@import "header.css";
+@import "footer.css";
+@import "social-networks.css";
+@import "common.css";
+
 .blog {
   padding-left: 110px;
   padding-right: 110px;
@@ -5,9 +10,7 @@
 
 .blog-title {
   margin-top: 18px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 40px;
   line-height: 42px;
   text-transform: uppercase;
@@ -25,9 +28,8 @@
 
 .blog-navigation-link-page,
 .blog-navigation-link-disabled {
-  font-family: Crimson Text;
+  font-family: "Crimson Text", "Arial", sans-serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 20px;
   line-height: 25px;
   color: #1e0606;
@@ -72,20 +74,15 @@
 
 .blog-item-date {
   padding-bottom: 7px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   color: #818181;
-  mix-blend-mode: normal;
 }
 
 .blog-item-bold-text {
   cursor: pointer;
   padding-bottom: 15px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 24px;
   line-height: 31px;
   color: #1e0606;
@@ -99,17 +96,13 @@
 }
 
 .blog-item-description {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   color: #1e0606;
 }
 
 .blog-navigation-page {
-  padding-bottom: 44px;
-  padding-left: 102px;
-  padding-right: 106px;
+  padding: 0px 106px 44px 102px;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -117,13 +110,12 @@
 
 .blog-navigation-list {
   display: flex;
-  margin-left: 65px;
+  padding: 0px 10px 0px 65px;
 }
 
 .blog-navigation-link,
 .blog-navigation-link-active {
-  font-family: Montserrat;
-  font-style: normal;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -137,14 +129,14 @@
 
 .blog-navigation-item {
   margin-top: -15px;
-  padding-right: 57px;
+  padding-right: 55px;
 }
 
 .blog-navigation-item-number,
 .blog-navigation-item-number-active {
+  border: none;
   background: transparent;
-  font-family: Montserrat;
-  font-style: normal;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -165,14 +157,15 @@
 }
 
 .vector-page {
+  border: none;
   background: transparent;
   margin-top: -10px;
   cursor: pointer;
 }
-.vector-page path:hover {
+.vector-page:hover path {
   stroke: #c29974;
 }
 
-.vector-page path:active {
+.vector-page:active {
   opacity: 0.5;
 }

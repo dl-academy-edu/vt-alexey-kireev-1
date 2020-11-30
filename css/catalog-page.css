@@ -1,3 +1,8 @@
+@import "header.css";
+@import "footer.css";
+@import "social-networks.css";
+@import "common.css";
+
 .catalog-block-title {
   margin-top: 22px;
   padding-left: 110px;
@@ -9,26 +14,19 @@
 }
 
 .catalog-title {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 40px;
   line-height: 49px;
   text-transform: uppercase;
   color: #1e0606;
 }
 .catalog-block {
-  margin-top: 3px;
-}
-
-.catalog-block-list {
+  display: table;
 }
 
 .catalog-item-title {
   width: 196px;
-  display: table-caption;
-  font-family: Montserrat;
-  font-style: normal;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 32px;
@@ -40,9 +38,8 @@
 
 .catalog-navigation-link,
 .catalog-navigation-link-disabled {
-  font-family: Crimson Text;
+  font-family: "Crimson Text", "Arial", sans-serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 20px;
   line-height: 25px;
   color: #1e0606;
@@ -50,8 +47,7 @@
 
 .catalog-navigation-item::after {
   content: url(/Images/Vector-Stroke.png);
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0px 20px;
 }
 
 .catalog-navigation-list {
@@ -68,35 +64,25 @@
 }
 
 .catalog {
-  padding-right: 210px;
-  padding-left: 90px;
-}
-
-.category-products {
+  padding: 15px 210px 0px 90px;
 }
 
 .catalog-block-list {
   justify-content: start;
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  margin: -1px;
-}
-
-.catalog-item-title:hover,
-.catalog-item-title:active {
-  text-decoration-line: underline;
 }
 
 .catalog-block-item {
+  display: table;
   margin-left: 19px;
-  margin-top: 28px;
+  margin-bottom: 25px;
   min-width: 280px;
   min-height: 270px;
 }
 
 .catalog-block-item:nth-child(6n + 4) {
-  margin-left: 200px;
+  margin-left: 220px;
 }
 
 .catalog-item-link {
@@ -107,40 +93,34 @@
   height: 100%;
 }
 
-.catalog-item-link:hover,
-.catalog-item-link:active {
+.catalog-item-link:hover {
   cursor: pointer;
   text-decoration-line: underline;
   text-decoration-color: #ffffff;
 }
 
-.product-title {
+.product-Description-block {
+  padding: 13px 410px 41px 310px;
 }
 
-.Product-Description-block {
-  padding-top: 51px;
-  padding-left: 310px;
-  padding-right: 410px;
-  padding-bottom: 41px;
-}
-
-.Product-Description-title {
+.product-Description-title {
   padding-bottom: 25px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 38px;
   line-height: 46px;
   text-transform: uppercase;
   color: #1e0606;
 }
 
-.Product-Description {
+.product-Description {
   padding-bottom: 15px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   color: #1e0606;
   width: 680px;
+}
+
+.catalog-img {
+  position: absolute;
+  z-index: -1;
 }

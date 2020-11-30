@@ -1,7 +1,5 @@
 .guarantee {
-  padding-left: 110px;
-  padding-right: 210px;
-  padding-top: 90px;
+  padding: 53px 210px 0px 110px;
   display: flex;
 }
 
@@ -11,9 +9,7 @@
 
 .guarantee-title {
   padding-top: 33px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 38px;
   line-height: 46px;
   text-transform: uppercase;
@@ -21,37 +17,15 @@
 }
 
 .guarantee-button {
-  display: flex;
-  justify-content: center;
   width: 149px;
   height: 40px;
   margin-top: -11px;
-  background: #000000;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.guarantee-button:hover {
-  background: #c29974;
-}
-
-.guarantee-button:active {
-  background: #cfaf91;
 }
 
 .guarantee-description {
   position: relative;
   top: -26px;
   padding-bottom: 12px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   color: #1e0606;
@@ -61,9 +35,8 @@
   bottom: 21px;
   position: relative;
   width: 326px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", "Arial", sans-serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 26px;
   line-height: 32px;
   color: #1e0606;
@@ -71,10 +44,10 @@
 
 .guarantee-item,
 .guarantee-item-active {
+  border: none;
   margin-bottom: 11px;
-  font-family: Crimson Text;
+  font-family: "Crimson Text", "Arial", sans-serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 26px;
   line-height: 32px;
   color: #1e0606;
@@ -82,11 +55,11 @@
 .guarantee-item {
   cursor: pointer;
   background: transparent;
+  padding-left: 0px;
 }
 
 .guarantee-item-active {
   text-align: left;
-  display: flex;
   font-weight: bold;
   position: relative;
   right: 60px;

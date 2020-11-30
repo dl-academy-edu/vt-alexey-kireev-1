@@ -17,21 +17,18 @@
 
 .popup-form {
   position: relative;
-  padding: 15px 41px 50px;
-  background: #e5eaf8;
+  padding: 20px 41px 39px;
+  background-color: #e5eaf8;
   max-width: 680px;
-  height: 542px;
-  width: 100%;
-  margin-bottom: 167px;
+  min-height: 540px;
+  margin-bottom: 159px;
 }
 .input-label {
   user-select: none;
   margin-bottom: 6px;
   display: block;
-  margin-top: 20px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
+  margin-top: 16px;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
   line-height: 19px;
   color: #1e0606;
@@ -42,28 +39,18 @@
 }
 
 .input-item::placeholder {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   color: #1e0606;
 }
 
 .input-item {
-  outline: none;
   padding: 14px 20px 11px;
   display: block;
   width: 100%;
-  border-radius: none;
-  background: #ffffff;
-  border-radius: 0;
   border: 2px solid rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   background-color: #ffffff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   color: #1e0606;
@@ -80,16 +67,12 @@
 }
 
 .checkbox-block {
-  padding-right: 15px;
   display: flex;
-  margin-top: 18px;
-  padding-bottom: 20px;
+  padding: 22px 15px 20px 0px;
 }
 
 .checkbox-text {
   padding-left: 30px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   color: #1e0606;
@@ -103,11 +86,11 @@
 
 .input-label-checkbox::before {
   margin-top: 3px;
+  margin-right: 15px;
   display: inline-block;
   content: "";
   width: 19px;
   height: 19px;
-  margin-right: 15px;
   border: 2px solid #c29974;
   box-sizing: border-box;
   border-radius: 3px;
@@ -126,29 +109,14 @@
 }
 
 .popup-form-button-submit {
-  cursor: pointer;
   width: 106px;
   height: 40px;
   margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  background: #c1c1c1;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: #e1e1e1;
-  justify-content: center;
 }
 
 .popup-form-button-close {
+  border: none;
   cursor: pointer;
-  outline: none;
   background: transparent;
   position: absolute;
   left: 101%;
@@ -165,19 +133,11 @@
   opacity: 0.4;
 }
 
-.input {
-}
-
-.contact-us-input-item:hover {
-  border: 2px solid rgba(0, 0, 0, 0.3);
-}
-
 .popup-chackbox-text {
+  user-select: none;
   position: relative;
   top: -4px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
   line-height: 19px;
 }
@@ -191,20 +151,14 @@
   width: 290px;
   height: 50px;
   padding: 14px 20px 11px;
-  outline: none;
-  background: #ffffff;
-  border-radius: 0;
   border: 2px solid rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   background-color: #ffffff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   color: #1e0606;
 }
-
+.contact-us-input-item:hover,
 .contact-us-input-phone:hover,
 .contact-us-input-email-input:hover {
   border: 2px solid rgba(0, 0, 0, 0.3);

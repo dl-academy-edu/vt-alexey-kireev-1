@@ -1,16 +1,12 @@
 .category-products {
-  max-width: 1180px;
+  min-width: 1180px;
   min-height: 421px;
-  padding-top: 89px;
-  padding-left: 103px;
-  padding-right: 103px;
+  padding: 89px 103px 39px 103px;
 }
 
 .category-products-title {
   padding-left: 7px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 38px;
   line-height: 46px;
   text-transform: uppercase;
@@ -19,10 +15,7 @@
 
 .product-title {
   width: 195px;
-  display: table-caption;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 26px;
   line-height: 32px;
   text-align: center;
@@ -40,28 +33,28 @@
 
 .category-products-block-list {
   justify-content: space-between;
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  margin: -1px;
+  margin: 0px 7px;
 }
 
 .category-products-navigation {
+  border: none;
   background-color: #e2f1f8;
   display: flex;
   width: 37px;
   height: 37px;
   margin-left: 6px;
-  margin-right: 2px;
-  margin-top: 39px;
+  padding-left: 10px;
+  margin-top: 34px;
 }
 
 .products-bottom-text {
   line-height: 1.4;
   width: 580px;
   height: 44px;
-  padding-top: 33px;
-  padding-left: 17px;
+  padding-top: 31px;
+  padding-left: 22px;
 }
 
 .category-products-navigation-block {
@@ -95,15 +88,15 @@
   cursor: pointer;
 }
 
-.vector-slider path:hover {
+.category-products-navigation:hover path {
   stroke: #c29974;
 }
 
-.vector-slider path:active {
+.category-products-navigation:active {
   opacity: 0.5;
 }
 
-.catalog-img {
+.category-products-img {
   position: absolute;
   z-index: -1;
 }

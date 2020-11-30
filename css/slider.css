@@ -12,26 +12,10 @@
 
 .slider-one-number {
   margin-top: 88px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 300;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 60px;
   line-height: 73px;
   color: #e3d8d0;
-}
-
-.slider-bottom {
-  display: none;
-  font-style: normal;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 16px;
-  color: #ffffff;
-  text-transform: uppercase;
 }
 
 .slider-block-nav {
@@ -48,23 +32,25 @@
   background: #c29974;
   width: 1180px;
   height: 39px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .slider-one-title-big {
   width: 307px;
   padding-top: 181px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 40px;
   line-height: 44px;
   color: #1e0606;
 }
 
 .slider-one-title-small {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-family: Crimson Text;
+  padding: 20px 0px;
+  font-family: "Crimson Text", "Arial", sans-serif;
   font-style: italic;
   font-weight: normal;
   font-size: 20px;
@@ -73,33 +59,9 @@
 }
 
 .slider-button {
-  cursor: pointer;
-  margin-left: -2px;
   width: 163px;
   height: 42px;
-  margin-bottom: 89px;
-  margin-top: -2px;
-  background: #000000;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
-  color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.slider-button:hover {
-  background: #c29974;
-}
-
-.slider-button:active {
-  background: #cfaf91;
-}
-
-.slider-button:disabled {
-  background: #c1c1c1;
-  color: #e1e1e1;
+  margin: -2px 0px 89px -2px;
 }
 
 .text-block-slider {
@@ -135,12 +97,12 @@
 }
 
 .slider-block-item {
-  outline: none;
   width: 1px;
   margin-bottom: -4px;
 }
 
 .slider-block-item-page {
+  border: none;
   display: inline-block;
   cursor: pointer;
   width: 31px;
@@ -149,6 +111,8 @@
 }
 
 .slider-block-item-page-active {
+  pointer-events: none;
+  border: none;
   width: 31px;
   height: 3px;
   background-color: #715f5c;

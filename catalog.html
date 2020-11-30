@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <title>CATALOG</title>
     <link href="css/fonts/stylesheet.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/catalog-page.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="header container">
-        <div class="header-logo"><a href="#"><img src="images/logo.png" alt="Site logo" class="header-logo" width="100"
-                    height="52" title="Home"></a></div>
+        <a href="#" class="header-logo"><img src="images/logo.png" alt="Site logo" width="100" height="52"
+                title="Go to Home"></a>
         <nav aria-label="Навигация по сайту" class="header-nav">
             <ul class="header-menu-list">
                 <li class="header-menu-item">
@@ -22,11 +22,11 @@
                     <a href="#" class="header-menu-link" style="pointer-events:none" tabindex="1">Catalog</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="#" class="header-menu-link" title="About Us" title="About us">About Us</a>
+                    <a href="#" class="header-menu-link" title="About us">About Us</a>
                 </li>
             </ul>
         </nav>
-        <button class="button search" type="button"><img src="images/search.png" alt="search" width="17" height="17"
+        <button class="search" type="button"><img src="images/search.png" alt="search" width="17" height="17"
                 title="Go to Search"></button>
         <a href="#" class="contact-us-header-link" title="Contact us">Contact Us</a>
     </header>
@@ -40,10 +40,9 @@
                 <li>
                     <div class="catalog-navigation-link-disabled">Catalog</div>
                 </li>
-        </div>
         </ul>
     </div>
-
+    </div>
     <main class="catalog container">
         <article class="catalog-block ">
             <ul class="catalog-block-list">
@@ -87,15 +86,15 @@
             </ul>
         </article>
     </main>
-    <section class="Product-Description-block container">
-        <h2 class="Product-Description-title">Product Description</h2>
-        <p class="Product-Description">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and
+    <section class="product-Description-block container">
+        <h2 class="product-Description-title">Product Description</h2>
+        <p class="product-Description">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and
             almost really cry. You can even
             bathe her, just like a little sister.</p>
-        <p class="Product-Description">A toy with a height of 43 cm bends its knees, the head rotates, it can stand
+        <p class="product-Description">A toy with a height of 43 cm bends its knees, the head rotates, it can stand
             upright. Such a doll will be an
             excellent choice for a gift for a girl from 4 years old.</p>
-        <p class="Product-Description">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle
+        <p class="product-Description">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle
             for water, a pair of hairpins
             and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.
         </p>
@@ -155,7 +154,7 @@
                 <h2 class="footer-title">Connect</h2>
                 <form class="form-block" action="#">
                     <input class="footer-email" type="text" placeholder="Email" title="Email">
-                    <button class="footer-button button" title="Press Join" type="submit">JOIN</button>
+                    <button class="button footer-button" title="Press Join" type="submit">JOIN</button>
                 </form>
                 <div class="social-network-block">
                     <ul class="social-network-block-list">
@@ -199,44 +198,12 @@
                     <label for="stars-1" title="Give a rating of 1"></label>
                 </div>
                 <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
-                <a href="#" title="Go to Direct Line">
-                    <p class="web-desing">Web Design — Direct Line Development</p>
+                <a href="#" class="web-desing" title="Go to Direct Line">
+                    <span>Web Design — Direct Line Development</span>
                 </a>
             </div>
         </div>
     </footer>
-    <section class="popup">
-        <h2 class="visibility-hidden">Popup contacy us</h2>
-        <form class="popup-form" action="#">
-            <button type="button" class="button popup-form-button-close" id="popup-close-button" title="Click on Close">
-                <img src="/Images/close.png" alt="close" width="15" height="15"></button>
-            <div class="input">
-                <label class="input-label" for="name">Name</label>
-                <input class="input-item" type="text" id="name" title="Click on Name">
-            </div>
-            <div class="inputs-row-two">
-                <div class="contact-us-input">
-                    <label class="input-label" for="phone">Phone</label>
-                    <input class="contact-us-input-phone" type="text" id="phone" title="Click on Phone">
-                </div>
-                <div class="contact-us-input-email">
-                    <label class="input-label" for="email">Email</label>
-                    <input class="contact-us-input-email-input" type="text" id="email" title="Click on Email">
-                </div>
-            </div>
-            <div class="input">
-                <label class="input-label" for="message">Message</label>
-                <textarea class="input-item textarea" id="message" title="Click on Massage"></textarea>
-            </div>
-            <div class="checkbox-block">
-                <input class="checkbox-input visibility-hidden" type="checkbox" id='approval' checked>
-                <label class="input-label-checkbox" for="approval" title="Press"><span class="popup-chackbox-text">By clicking on the button, you consent
-                    to the processing of your personal data</span></label>
-            </div>
-            <button type="sumbit" class="button popup-form-button-submit" title="Click on Sumbit">SUBMIT</button>
-        </form>
-    </section>
-    <script src="/js/index.js"></script>
 </body>
 
 </html>

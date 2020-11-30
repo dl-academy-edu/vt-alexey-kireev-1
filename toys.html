@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <title>TOYS</title>
     <link href="css/fonts/stylesheet.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/toys.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="header container">
-        <a href="#"><img src="images/logo.png" alt="Site logo" class="header-logo" width="100" height="52"
+        <a href="#" class="header-logo"><img src="images/logo.png" alt="Site logo" width="100" height="52"
                 title="Go to Home"></a>
         <nav aria-label="Навигация по сайту" class="header-nav">
             <ul class="header-menu-list">
@@ -26,7 +26,7 @@
                 </li>
             </ul>
         </nav>
-        <button class="button search" type="button"><img src="images/search.png" alt="search" width="17" height="17"
+        <button class="search" type="button"><img src="images/search.png" alt="search" width="17" height="17"
                 title="Go to Search"></button>
         <a href="#" class="contact-us-header-link" title="Contact Us">Contact Us</a>
     </header>
@@ -48,12 +48,11 @@
         <form class="toys-block-filter container" action="#">
             <div class="toys-item-filter">
                 <div class="toys-block-coast">
-                    <p class="toys-filter-title">Coast</p>
+                    <p class="toys-filter-title">Cost</p>
                     <div class="toys-item-filter-coast">
-                        <input class="range" type="range" min="0" max="500" value="130" step="10"
-                            title="Click on Coast">
+                        <input class="range" type="range" min="0" max="500" value="95" step="10" title="Click on Coast">
                     </div>
-                    <p class="item-filter-coast-number">0</з>
+                    <p class="item-filter-coast-number">0</p>
                     <p class="item-filter-coast-number-end">500</p>
                 </div>
             </div>
@@ -115,7 +114,7 @@
                 </div>
             </div>
             <div class="toys-item-filter">
-                <button type="sumbit" class="toys-filter-button" title="Click on Apply">APPLY</button>
+                <button type="submit" class="button toys-filter-button" title="Click on Apply">APPLY</button>
             </div>
         </form>
     </div>
@@ -168,29 +167,27 @@
         </article>
     </main>
     <div class="toys-navigation-page container">
-        <button type="button" class="button toys-vector-page">
-            <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg"
-                title="Press Left">
+        <button type="button" class="toys-vector-page" title="Press Left">
+            <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16 2L3 15L16 28" stroke="#E4E1E1" stroke-width="4" />
             </svg>
         </button>
-        <ul class="toys-navigation-list">
+        <ul class="toys-navigation-list-page">
             <li class="toys-navigation-item">
-                <button type="button" class="button toys-navigation-item-number-active" title="Go to 1 page">1</button>
+                <button type="button" class="toys-navigation-item-number-active" title="Go to 1 page">1</button>
             </li>
             <li class="toys-navigation-item">
-                <button type="button" class="button toys-navigation-item-number" title="Go to 2 page">2</button>
+                <button type="button" class="toys-navigation-item-number" title="Go to 2 page">2</button>
             </li>
             <li class="toys-navigation-item">
-                <button type="button" class="button toys-navigation-item-number" title="Go to 3 page">3</button>
+                <button type="button" class="toys-navigation-item-number" title="Go to 3 page">3</button>
             </li>
             <li class="toys-navigation-item">
-                <button type="button" class="button toys-navigation-item-number" title="Go to 4 page">4</button>
+                <button type="button" class="toys-navigation-item-number" title="Go to 4 page">4</button>
             </li>
         </ul>
-        <button type="button" class="button toys-vector-page">
-            <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg"
-                title="Press Right">
+        <button type="button" class="toys-vector-page" title="Press Right">
+            <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2 2L15 15L2 28" stroke="#E4E1E1" stroke-width="4" />
             </svg>
         </button>
@@ -250,7 +247,7 @@
                 <h2 class="footer-title">Connect</h2>
                 <form class="form-block" action="#">
                     <input class="footer-email" type="text" placeholder="Email" title="Email">
-                    <button class="footer-button button" title="Press Join" type="sumbit">JOIN</button>
+                    <button class="button footer-button" title="Press Join" type="submit">JOIN</button>
                 </form>
                 <div class="social-network-block">
                     <ul class="social-network-block-list">
@@ -294,44 +291,12 @@
                     <label for="stars-1" title="Give a rating of 1"></label>
                 </div>
                 <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
-                <a href="#" title="Go to Direct Line">
-                    <p class="web-desing">Web Design — Direct Line Development</p>
+                <a href="#" class="web-desing" title="Go to Direct Line">
+                    <span>Web Design — Direct Line Development</span>
                 </a>
             </div>
         </div>
     </footer>
-    <section class="popup">
-        <h2 class="visibility-hidden">Popup contacy us</h2>
-        <form class="popup-form" action="#">
-            <button type="button" class="button popup-form-button-close" id="popup-close-button" title="Click on Close">
-                <img src="/Images/close.png" alt="close" width="15" height="15"></button>
-            <div class="input">
-                <label class="input-label" for="name">Name</label>
-                <input class="input-item" type="text" id="name" title="Click on Name">
-            </div>
-            <div class="inputs-row-two">
-                <div class="contact-us-input">
-                    <label class="input-label" for="phone">Phone</label>
-                    <input class="contact-us-input-phone" type="text" id="phone" title="Click on Phone">
-                </div>
-                <div class="contact-us-input-email">
-                    <label class="input-label" for="email">Email</label>
-                    <input class="contact-us-input-email-input" type="text" id="email" title="Click on Email">
-                </div>
-            </div>
-            <div class="input">
-                <label class="input-label" for="message">Message</label>
-                <textarea class="input-item textarea" id="message" title="Click on Massage"></textarea>
-            </div>
-            <div class="checkbox-block">
-                <input class="checkbox-input visibility-hidden" type="checkbox" id='approval' checked>
-                <label class="input-label-checkbox" for="approval" title="Press"><span class="popup-chackbox-text">By clicking on the button, you consent
-                    to the processing of your personal data</span></label>
-            </div>
-            <button type="sumbit" class="button popup-form-button-submit" title="Click on Sumbit">SUBMIT</button>
-        </form>
-    </section>
-    <script src="/js/index.js"></script>
 </body>
 
 </html>
