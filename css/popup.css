@@ -117,7 +117,7 @@
 .popup-form-button-close {
   border: none;
   cursor: pointer;
-  background: transparent;
+  background-color: transparent;
   position: absolute;
   left: 101%;
   bottom: 100%;

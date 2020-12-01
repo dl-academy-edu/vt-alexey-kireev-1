@@ -37,7 +37,7 @@ p {
   cursor: pointer;
   border: none;
   display: flex;
-  background: #000000;
+  background-color: #000000;
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
@@ -49,15 +49,15 @@ p {
 }
 
 .button:hover {
-  background: #c29974;
+  background-color: #c29974;
 }
 
 .button:active {
-  background: #cfaf91;
+  background-color: #cfaf91;
 }
 
 .button:disabled {
-  background: #c1c1c1;
+  background-color: #c1c1c1;
   color: #e1e1e1;
 }
 

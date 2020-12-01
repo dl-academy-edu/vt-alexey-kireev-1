@@ -135,7 +135,7 @@
 .blog-navigation-item-number,
 .blog-navigation-item-number-active {
   border: none;
-  background: transparent;
+  background-color: transparent;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: bold;
   font-size: 16px;
@@ -158,7 +158,7 @@
 
 .vector-page {
   border: none;
-  background: transparent;
+  background-color: transparent;
   margin-top: -10px;
   cursor: pointer;
 }

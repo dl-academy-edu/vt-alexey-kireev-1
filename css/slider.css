@@ -1,6 +1,5 @@
 .slider {
-  padding-left: 110px;
-  padding-right: 110px;
+  padding: 0 110px;
   max-width: 1180px;
   min-height: 500px;
 }
@@ -29,7 +28,7 @@
   bottom: 3px;
   align-items: center;
   justify-content: center;
-  background: #c29974;
+  background-color: #c29974;
   width: 1180px;
   height: 39px;
   font-weight: bold;
@@ -70,11 +69,11 @@
 }
 
 .slider-button-page:hover {
-  background: #715f5c;
+  background-color: #715f5c;
 }
 
 .slider-button-page:active {
-  background: #715f5c;
+  background-color: #715f5c;
 }
 
 .slider-background {
