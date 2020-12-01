@@ -17,7 +17,7 @@
   content: "";
   display: block;
   height: 1px;
-  background: #666666;
+  background-color: #666666;
 }
 
 .footer-navigation {
@@ -44,7 +44,7 @@
   content: "";
   display: block;
   height: 1px;
-  background: #666666;
+  background-color: #666666;
 }
 
 .footer-navigation-link {
@@ -107,14 +107,6 @@
   height: 40px;
 }
 
-.footer-button:hover {
-  background: #c29974;
-}
-
-.footer-button:active {
-  background: #cfaf91;
-}
-
 .form-block {
   margin-top: 12px;
   display: flex;
@@ -128,7 +120,7 @@
   color: #ebebeb;
   width: 302px;
   height: 40px;
-  background: #666666;
+  background-color: #666666;
 }
 
 .rating-starts-list {

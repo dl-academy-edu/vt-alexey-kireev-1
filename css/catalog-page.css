@@ -25,7 +25,7 @@
 }
 
 .catalog-item-title {
-  width: 196px;
+  width: 190px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -74,7 +74,6 @@
 }
 
 .catalog-block-item {
-  display: table;
   margin-left: 19px;
   margin-bottom: 25px;
   min-width: 280px;
@@ -99,11 +98,11 @@
   text-decoration-color: #ffffff;
 }
 
-.product-Description-block {
+.product-description-block {
   padding: 13px 410px 41px 310px;
 }
 
-.product-Description-title {
+.product-description-title {
   padding-bottom: 25px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 38px;
@@ -112,7 +111,7 @@
   color: #1e0606;
 }
 
-.product-Description {
+.product-description {
   padding-bottom: 15px;
   font-size: 16px;
   line-height: 22px;
