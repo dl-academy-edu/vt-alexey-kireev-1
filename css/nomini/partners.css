@@ -1,0 +1,19 @@
+.parters-block {
+  padding: 79px 110px 0px 110px;
+}
+
+.parters-block-list {
+  display: flex;
+}
+
+.parters-block-item {
+  padding-right: 127px;
+}
+
+.parters-block-item:nth-child(4) {
+  margin-top: 5px;
+}
+
+.parters-block-link:hover {
+  opacity: 0.75;
+}
