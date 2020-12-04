@@ -1,0 +1,1 @@
+var html=document.querySelector("html"),popupbuttonclose=document.querySelector("#popup-close-button"),popupbuttonopen=document.querySelector("#popup-open-button");popupbuttonopen.addEventListener("click",function(){html.classList.add("popup-open")}),popupbuttonclose.addEventListener("click",function(){html.classList.remove("popup-open")});

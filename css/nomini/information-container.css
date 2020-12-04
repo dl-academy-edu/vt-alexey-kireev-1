@@ -1,0 +1,99 @@
+.information {
+  padding: 64px 147px 0px 110px;
+  display: flex;
+}
+
+.about-us {
+  width: 543px;
+  margin-bottom: 135px;
+}
+
+.contacts {
+  width: 543px;
+  margin-left: 57px;
+  margin-bottom: 60px;
+}
+
+.information-title-contacts,
+.information-title-design {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #1e0606;
+}
+
+.information-title-contacts {
+  padding-left: 30px;
+}
+
+.information-title-design {
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+
+.information-title-small {
+  margin-top: 15px;
+  padding-left: 30px;
+  font-family: "Crimson Text", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  color: #1e0606;
+}
+
+.information-button {
+  width: 123px;
+  height: 40px;
+  margin: 20px 0px 35px 30px;
+}
+
+.maps {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.information-description-contacts {
+  width: 503px;
+  padding-top: 22px;
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1e0606;
+}
+
+.information-description-about {
+  width: 500px;
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1e0606;
+}
+
+.information-background-about-us,
+.information-background-contacts {
+  position: relative;
+}
+
+.information-background-about-us::before,
+.information-background-contacts::before {
+  content: "";
+  z-index: -1;
+  margin-top: 26px;
+  position: absolute;
+  background-color: #e1f0f7;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.information-background-about-us::before {
+  margin-bottom: -35px;
+}
+
+.information-background-contacts::before {
+  margin-bottom: -100px;
+}
